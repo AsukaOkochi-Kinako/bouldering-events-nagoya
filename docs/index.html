@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ボルダリング体験会ナビ 名古屋</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧗</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-base"></div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="header-logo">
+      <span class="logo-icon">🧗</span>
+      <div class="logo-text">
+        <span class="logo-name">BOULDER NAVI</span>
+        <span class="logo-sub">名古屋 体験会・試し履き情報</span>
+      </div>
+    </div>
+    <div class="header-meta">
+      <span class="meta-label">最終更新</span>
+      <span id="last-updated" class="meta-value">---</span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="main-inner">
+
+    <p class="page-desc">
+      名古屋のボルダリングジムの体験会・試し履きイベント情報を毎朝自動収集しています。<br>
+      最新日程は各ジムの公式サイト・Instagramでご確認ください。
+    </p>
+
+    <div class="filter-bar" id="filter-bar">
+      <button class="filter-btn active" data-filter="all">すべて</button>
+      <button class="filter-btn" data-filter="found">情報あり</button>
+      <button class="filter-btn" data-filter="instagram">Instagram確認</button>
+      <button class="filter-btn" data-filter="none">情報なし</button>
+    </div>
+
+    <div id="gym-grid" class="gym-grid hidden"></div>
+
+    <div id="loading-state" class="loading-state">
+      <span class="loading-icon">🧗</span>
+      <p>読み込んでいます...</p>
+    </div>
+
+    <div id="error-state" class="error-state hidden">
+      <p>データの読み込みに失敗しました。</p>
+    </div>
+
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

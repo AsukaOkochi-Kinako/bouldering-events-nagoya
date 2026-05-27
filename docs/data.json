@@ -1,0 +1,101 @@
+{
+  "last_updated": null,
+  "gyms": [
+    {
+      "id": "knot",
+      "name": "KNOT",
+      "url": "https://www.bouldering-knot.com/",
+      "instagram_handle": null,
+      "instagram_primary": false,
+      "note": null,
+      "status": "pending",
+      "snippets": [],
+      "last_checked": null,
+      "error": null
+    },
+    {
+      "id": "pinna",
+      "name": "Pinna2",
+      "url": "https://pinna2.com/",
+      "instagram_handle": null,
+      "instagram_primary": true,
+      "note": "体験会情報はInstagramで発信",
+      "status": "pending",
+      "snippets": [],
+      "last_checked": null,
+      "error": null
+    },
+    {
+      "id": "dbc",
+      "name": "D-BC 浅間通",
+      "url": "https://www.d-b-c.jp/top/sengen-cho/",
+      "instagram_handle": null,
+      "instagram_primary": false,
+      "note": "試し履き実施状況は要確認",
+      "status": "pending",
+      "snippets": [],
+      "last_checked": null,
+      "error": null
+    },
+    {
+      "id": "colorful",
+      "name": "Colorful Rock",
+      "url": "https://colorfulrock.com/",
+      "instagram_handle": null,
+      "instagram_primary": false,
+      "note": null,
+      "status": "pending",
+      "snippets": [],
+      "last_checked": null,
+      "error": null
+    },
+    {
+      "id": "cuore",
+      "name": "Climbing Cuore",
+      "url": "https://climbing-cuore.com/",
+      "instagram_handle": null,
+      "instagram_primary": false,
+      "note": null,
+      "status": "pending",
+      "snippets": [],
+      "last_checked": null,
+      "error": null
+    },
+    {
+      "id": "bolsta",
+      "name": "Bolsta",
+      "url": "https://bolsta.storeinfo.jp/",
+      "instagram_handle": null,
+      "instagram_primary": false,
+      "note": null,
+      "status": "pending",
+      "snippets": [],
+      "last_checked": null,
+      "error": null
+    },
+    {
+      "id": "tenova",
+      "name": "TENova Climbing",
+      "url": "https://tenova-climbing.com/",
+      "instagram_handle": null,
+      "instagram_primary": false,
+      "note": null,
+      "status": "pending",
+      "snippets": [],
+      "last_checked": null,
+      "error": null
+    },
+    {
+      "id": "soleil",
+      "name": "Climbing Gym Soleil2",
+      "url": "https://climbing-gym-soleil2.com/",
+      "instagram_handle": null,
+      "instagram_primary": false,
+      "note": null,
+      "status": "pending",
+      "snippets": [],
+      "last_checked": null,
+      "error": null
+    }
+  ]
+}
