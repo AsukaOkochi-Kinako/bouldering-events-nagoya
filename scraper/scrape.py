@@ -106,6 +106,15 @@ HEADERS = {
 }
 
 
+# 日付パターン（年省略可、曜日・時刻付き可）
+DATE_RE = re.compile(
+    r'(?:\d{4}年\s*)?'
+    r'\d{1,2}月\s*\d{1,2}日'
+    r'(?:\s*[（(][月火水木金土日祝][)）])?'
+    r'(?:\s*\d{1,2}[:：]\d{2}(?:\s*[〜～~]\s*\d{1,2}[:：]\d{2})?)?'
+)
+RECURRING_RE = re.compile(r'毎月|毎週|定期|第[一二三四五1-5]\s*[土日月火水木金]曜')
+
 STATION_RE = re.compile(r'([ぁ-んァ-ン一-龯A-Za-z0-9]+駅)')
 
 def extract_station(texts):
@@ -137,8 +146,30 @@ def fetch(url, timeout=15):
         return None, str(e)
 
 
+def parse_event(context, keyword):
+    """コンテキストテキストから日時・概要を構造化抽出する"""
+    # 日付抽出
+    date = None
+    m = DATE_RE.search(context)
+    if m:
+        date = m.group(0).strip()
+    elif RECURRING_RE.search(context):
+        rm = RECURRING_RE.search(context)
+        date = context[rm.start() : rm.start() + 20].strip()
+
+    # 概要: キーワードを含む文を優先して抽出
+    sentences = re.split(r'[。！!？?\n]', context)
+    relevant = [s.strip() for s in sentences if keyword in s and len(s.strip()) > 8]
+    if not relevant:
+        relevant = [s.strip() for s in sentences if len(s.strip()) > 8]
+    summary = "　".join(relevant[:2])
+    summary = re.sub(r'\s{2,}', ' ', summary).strip()[:160]
+
+    return date, summary
+
+
 def extract_snippets(soup, source_url):
-    """キーワードを含む文脈テキストを抽出する"""
+    """キーワードを含む文脈テキストを日時・概要として構造化抽出する"""
     snippets = []
     seen = set()
 
@@ -151,16 +182,18 @@ def extract_snippets(soup, source_url):
     for i, line in enumerate(lines):
         for kw in KEYWORDS:
             if kw in line:
-                context = " ".join(lines[max(0, i - 1) : i + 4])[:300]
+                context = " ".join(lines[max(0, i - 1) : i + 5])[:400]
                 if context not in seen:
                     seen.add(context)
+                    date, summary = parse_event(context, kw)
                     snippets.append({
                         "keyword": kw,
-                        "text": context,
+                        "date":    date,
+                        "summary": summary,
                         "source_url": source_url,
                     })
                 break
-        if len(snippets) >= 6:
+        if len(snippets) >= 5:
             break
 
     return snippets

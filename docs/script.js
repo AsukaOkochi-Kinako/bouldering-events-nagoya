@@ -17,19 +17,6 @@ function formatJST(isoStr) {
   });
 }
 
-function appendHighlighted(container, text, keyword) {
-  const parts = text.split(keyword);
-  parts.forEach((part, i) => {
-    container.appendChild(document.createTextNode(part));
-    if (i < parts.length - 1) {
-      const mark = document.createElement("span");
-      mark.className = "highlight";
-      mark.textContent = keyword;
-      container.appendChild(mark);
-    }
-  });
-}
-
 function makeBadge(gym) {
   const span = document.createElement("span");
   span.className = "status-badge";
@@ -42,6 +29,47 @@ function makeBadge(gym) {
     span.classList.add(info.cls);
   }
   return span;
+}
+
+function makeSnippetEl(s) {
+  const snip = document.createElement("div");
+  snip.className = "snippet";
+
+  // 日時（あれば）
+  if (s.date) {
+    const dateEl = document.createElement("div");
+    dateEl.className = "snippet-date";
+    dateEl.textContent = "📅 " + s.date;
+    snip.appendChild(dateEl);
+  }
+
+  // 概要
+  if (s.summary) {
+    const sumEl = document.createElement("p");
+    sumEl.className = "snippet-summary";
+    sumEl.textContent = s.summary;
+    snip.appendChild(sumEl);
+  }
+
+  // フッター（キーワードバッジ + 詳細リンク）
+  const footer = document.createElement("div");
+  footer.className = "snippet-footer";
+
+  const kw = document.createElement("span");
+  kw.className = "snippet-kw";
+  kw.textContent = s.keyword;
+  footer.appendChild(kw);
+
+  const src = document.createElement("a");
+  src.className = "snippet-src";
+  src.href = s.source_url;
+  src.target = "_blank";
+  src.rel = "noopener";
+  src.textContent = "詳細を見る →";
+  footer.appendChild(src);
+
+  snip.appendChild(footer);
+  return snip;
 }
 
 function makeCard(gym, idx) {
@@ -71,7 +99,6 @@ function makeCard(gym, idx) {
     stEl.textContent = "（" + gym.station + "）";
     nameEl.appendChild(stEl);
   }
-
   top.appendChild(nameEl);
   top.appendChild(makeBadge(gym));
   card.appendChild(top);
@@ -84,31 +111,11 @@ function makeCard(gym, idx) {
     card.appendChild(note);
   }
 
-  // スニペット
+  // スニペット（日時・概要カード）
   if (gym.snippets && gym.snippets.length > 0) {
     const snippetsEl = document.createElement("div");
     snippetsEl.className = "snippets";
-    gym.snippets.forEach(s => {
-      const snip = document.createElement("div");
-      snip.className = "snippet";
-
-      const kwEl = document.createElement("span");
-      kwEl.className = "snippet-kw";
-      kwEl.textContent = "キーワード：" + s.keyword;
-
-      const textEl = document.createElement("span");
-      textEl.className = "snippet-text";
-      appendHighlighted(textEl, s.text, s.keyword);
-
-      const srcEl = document.createElement("span");
-      srcEl.className = "snippet-src";
-      srcEl.textContent = s.source_url;
-
-      snip.appendChild(kwEl);
-      snip.appendChild(textEl);
-      snip.appendChild(srcEl);
-      snippetsEl.appendChild(snip);
-    });
+    gym.snippets.forEach(s => snippetsEl.appendChild(makeSnippetEl(s)));
     card.appendChild(snippetsEl);
   }
 

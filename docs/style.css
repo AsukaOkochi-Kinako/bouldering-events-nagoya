@@ -203,36 +203,52 @@ main {
 /* スニペット */
 .snippets { display: flex; flex-direction: column; gap: 8px; }
 .snippet {
-  font-size: 0.78rem;
-  color: var(--text-dim);
-  line-height: 1.75;
-  padding: 10px 12px;
+  padding: 12px 14px;
   background: #f8f8f6;
   border-left: 3px solid var(--card-accent);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.snippet-date {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.78rem;
+  font-weight: 900;
+  color: var(--card-accent);
+  letter-spacing: 0.03em;
+}
+.snippet-summary {
+  font-size: 0.8rem;
+  color: var(--text);
+  line-height: 1.75;
+  letter-spacing: 0.02em;
+}
+.snippet-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
 }
 .snippet-kw {
   font-size: 0.58rem;
   font-weight: 900;
   letter-spacing: 0.1em;
   color: var(--card-accent);
-  display: block;
-  margin-bottom: 4px;
+  background: color-mix(in srgb, var(--card-accent) 12%, transparent);
+  padding: 2px 8px;
 }
 .snippet-src {
   font-size: 0.6rem;
-  color: rgba(0,0,0,0.25);
-  margin-top: 5px;
-  display: block;
+  color: rgba(0,0,0,0.3);
+  text-decoration: none;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  max-width: 160px;
 }
-.highlight {
-  color: var(--text);
-  font-weight: 700;
-  background: rgba(232,48,48,0.1);
-  padding: 0 2px;
-}
+.snippet-src:hover { text-decoration: underline; }
 
 /* カード下部 */
 .card-footer {
