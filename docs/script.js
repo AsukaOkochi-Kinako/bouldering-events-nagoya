@@ -1,3 +1,5 @@
+const HOLD_COLORS = ["#e83030", "#2070e0", "#18b050", "#f07020", "#8030c0", "#e0a800", "#e03080"];
+
 const STATUS_LABELS = {
   found:     { text: "体験会情報あり", cls: "badge-found" },
   not_found: { text: "記載なし",       cls: "badge-none" },
@@ -15,7 +17,6 @@ function formatJST(isoStr) {
   });
 }
 
-// キーワードをハイライト（innerHTML 不使用）
 function appendHighlighted(container, text, keyword) {
   const parts = text.split(keyword);
   parts.forEach((part, i) => {
@@ -43,10 +44,11 @@ function makeBadge(gym) {
   return span;
 }
 
-function makeCard(gym) {
+function makeCard(gym, idx) {
   const card = document.createElement("div");
   card.className = "gym-card";
   card.dataset.gymId = gym.id;
+  card.style.setProperty("--card-accent", HOLD_COLORS[idx % HOLD_COLORS.length]);
 
   if (gym.status === "found") {
     card.dataset.filter = "found";
@@ -59,9 +61,17 @@ function makeCard(gym) {
   // カード上部（名前 + バッジ）
   const top = document.createElement("div");
   top.className = "card-top";
+
   const nameEl = document.createElement("div");
   nameEl.className = "gym-name";
-  nameEl.textContent = gym.name;
+  nameEl.appendChild(document.createTextNode(gym.name));
+  if (gym.station) {
+    const stEl = document.createElement("span");
+    stEl.className = "gym-station";
+    stEl.textContent = "（" + gym.station + "）";
+    nameEl.appendChild(stEl);
+  }
+
   top.appendChild(nameEl);
   top.appendChild(makeBadge(gym));
   card.appendChild(top);
@@ -78,7 +88,6 @@ function makeCard(gym) {
   if (gym.snippets && gym.snippets.length > 0) {
     const snippetsEl = document.createElement("div");
     snippetsEl.className = "snippets";
-
     gym.snippets.forEach(s => {
       const snip = document.createElement("div");
       snip.className = "snippet";
@@ -100,7 +109,6 @@ function makeCard(gym) {
       snip.appendChild(srcEl);
       snippetsEl.appendChild(snip);
     });
-
     card.appendChild(snippetsEl);
   }
 
@@ -162,7 +170,7 @@ async function init() {
     document.getElementById("last-updated").textContent = formatJST(data.last_updated);
 
     const grid = document.getElementById("gym-grid");
-    data.gyms.forEach(gym => grid.appendChild(makeCard(gym)));
+    data.gyms.forEach((gym, idx) => grid.appendChild(makeCard(gym, idx)));
 
     document.getElementById("loading-state").classList.add("hidden");
     grid.classList.remove("hidden");

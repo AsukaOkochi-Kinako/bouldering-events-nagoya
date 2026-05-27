@@ -1,3 +1,4 @@
+import re
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -16,14 +17,16 @@ GYMS = [
         "instagram_handle": None,
         "instagram_primary": False,
         "note": None,
+        "station": None,  # 自動抽出、または手動で入力
     },
     {
         "id": "pinna",
         "name": "Pinna2",
         "url": "https://pinna2.com/",
-        "instagram_handle": None,  # TODO: Instagramアカウント名を入力
+        "instagram_handle": None,
         "instagram_primary": True,
         "note": "体験会情報はInstagramで発信",
+        "station": None,
     },
     {
         "id": "dbc",
@@ -32,6 +35,7 @@ GYMS = [
         "instagram_handle": None,
         "instagram_primary": False,
         "note": "試し履き実施状況は要確認",
+        "station": "浅間町駅",
     },
     {
         "id": "colorful",
@@ -40,6 +44,7 @@ GYMS = [
         "instagram_handle": None,
         "instagram_primary": False,
         "note": None,
+        "station": None,
     },
     {
         "id": "cuore",
@@ -48,6 +53,7 @@ GYMS = [
         "instagram_handle": None,
         "instagram_primary": False,
         "note": None,
+        "station": None,
     },
     {
         "id": "bolsta",
@@ -56,6 +62,7 @@ GYMS = [
         "instagram_handle": None,
         "instagram_primary": False,
         "note": None,
+        "station": None,
     },
     {
         "id": "tenova",
@@ -64,6 +71,7 @@ GYMS = [
         "instagram_handle": None,
         "instagram_primary": False,
         "note": None,
+        "station": None,
     },
     {
         "id": "soleil",
@@ -72,6 +80,7 @@ GYMS = [
         "instagram_handle": None,
         "instagram_primary": False,
         "note": None,
+        "station": None,
     },
 ]
 
@@ -95,6 +104,27 @@ HEADERS = {
         "Chrome/120.0.0.0 Safari/537.36"
     )
 }
+
+
+STATION_RE = re.compile(r'([ぁ-んァ-ン一-龯A-Za-z0-9]+駅)')
+
+def extract_station(texts):
+    """複数テキストから最寄駅を抽出する"""
+    for text in texts:
+        # 「最寄駅: 〇〇駅」パターンを優先
+        m = re.search(r'最寄[りり]?\s*[：:\s「]\s*([ぁ-んァ-ン一-龯A-Za-z0-9]+駅)', text)
+        if m:
+            return m.group(1)
+        # 「〇〇駅から徒歩」パターン
+        m = re.search(r'([ぁ-んァ-ン一-龯A-Za-z0-9]+駅)[^\n]{0,15}徒歩', text)
+        if m:
+            return m.group(1)
+    # どちらもなければ最初に出てくる駅名
+    for text in texts:
+        m = STATION_RE.search(text)
+        if m:
+            return m.group(1)
+    return None
 
 
 def fetch(url, timeout=15):
@@ -169,6 +199,7 @@ def scrape_gym(gym):
         "instagram_handle": gym["instagram_handle"],
         "instagram_primary": gym["instagram_primary"],
         "note": gym.get("note"),
+        "station": gym.get("station"),  # 設定値を優先、なければ自動抽出
         "status": "not_found",
         "snippets": [],
         "last_checked": datetime.datetime.now(datetime.timezone.utc).isoformat(),
@@ -182,6 +213,7 @@ def scrape_gym(gym):
         return result
 
     all_snippets = extract_snippets(soup, gym["url"])
+    page_texts = [soup.get_text(separator=" ", strip=True)]
 
     sub_pages = find_sub_pages(soup, gym["url"])
     for sub_url in sub_pages[:3]:
@@ -189,6 +221,11 @@ def scrape_gym(gym):
         sub_soup, _ = fetch(sub_url)
         if sub_soup:
             all_snippets.extend(extract_snippets(sub_soup, sub_url))
+            page_texts.append(sub_soup.get_text(separator=" ", strip=True))
+
+    # 駅名が未設定なら自動抽出
+    if not result["station"]:
+        result["station"] = extract_station(page_texts)
 
     # 重複除去
     seen_texts = set()
