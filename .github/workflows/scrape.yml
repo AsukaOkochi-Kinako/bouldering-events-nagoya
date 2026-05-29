@@ -3,10 +3,13 @@ name: Scrape Bouldering Events
 on:
   schedule:
     - cron: '0 21 * * *'   # 毎日 06:00 JST
-  workflow_dispatch:         # 手動実行も可能
+  workflow_dispatch:
 
 permissions:
   contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   scrape:
