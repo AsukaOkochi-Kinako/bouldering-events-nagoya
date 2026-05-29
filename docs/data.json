@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-29T00:37:05.337008+00:00",
+  "last_updated": "2026-05-29T22:26:25.220588+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -40,7 +40,7 @@
           "source_url": "https://www.bouldering-knot.com/blog"
         }
       ],
-      "last_checked": "2026-05-29T00:36:20.647336+00:00",
+      "last_checked": "2026-05-29T22:25:18.343478+00:00",
       "error": null
     },
     {
@@ -68,7 +68,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-05-29T00:36:24.075291+00:00",
+      "last_checked": "2026-05-29T22:25:25.426217+00:00",
       "error": null
     },
     {
@@ -117,7 +117,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-05-29T00:36:26.412125+00:00",
+      "last_checked": "2026-05-29T22:25:29.309417+00:00",
       "error": null
     },
     {
@@ -128,39 +128,10 @@
       "instagram_primary": false,
       "note": null,
       "station": "東海通駅",
-      "status": "found",
-      "snippets": [
-        {
-          "title": "名古屋で初心者大歓迎のボルダリングジム｜初心者・子供・体験OK",
-          "keyword": "試し履き",
-          "date": "2026年5月18日",
-          "summary": "ボルダリング体験予約はこちら 📢 カラフルロックからのお知らせ｜名古屋のジム最新情報 名古屋市港区のカラフルロックでは、 ホールド替え や 試し履き会 などのイベント情報、 物販の入荷 などを随時発信中",
-          "source_url": "https://colorfulrock.com/"
-        },
-        {
-          "title": "店内の雰囲気",
-          "keyword": "初めての",
-          "date": "定期的に行っているホールド替えのタイミン",
-          "summary": "もくじ 1 店内の雰囲気 2 ボルダリングウォールの紹介 2.1 壁の種類と角度 2.2 ムーンボード（MoonBoard） 2.3 リードクライミング・トップロープ（※現在閉鎖中） 3 中上級者・遠征クライマーの方へ 4 施設設備一覧 5 初めての方も安心 6 関連情報・あわせて読みたい 店内の雰囲気 カラフルロック",
-          "source_url": "https://colorfulrock.com/facility-information"
-        },
-        {
-          "title": "トップページ",
-          "keyword": "はじめての",
-          "date": null,
-          "summary": "トップページ はじめての方へ GUEST PRICE ACCESS 壁の種類・設備一覧",
-          "source_url": "https://colorfulrock.com/category/colorfulrock"
-        },
-        {
-          "title": "🗓 2026年4月・ゴールデンウィークのイベント＆営業スケジュール",
-          "keyword": "体験会",
-          "date": "5月7日（木）",
-          "summary": "📅 4/8（水） 🧘‍♂️ 楽動整体 施術体験会 クライマー向け整体で、肩・腰・疲労回復をサポート　📅 4/22（水） 🧘‍♂️ 楽動整体 施術体験会 ホールド替え後の新課題とあわせて、体のケアやコンディショニングにもご活用いただけます",
-          "source_url": "https://colorfulrock.com/schedule"
-        }
-      ],
-      "last_checked": "2026-05-29T00:36:33.023318+00:00",
-      "error": null
+      "status": "error",
+      "snippets": [],
+      "last_checked": "2026-05-29T22:25:38.421524+00:00",
+      "error": "403 Client Error: Forbidden for url: https://colorfulrock.com/"
     },
     {
       "id": "cuore",
@@ -173,10 +144,10 @@
       "status": "found",
       "snippets": [
         {
-          "title": "New Chal",
+          "title": "A壁1級  54番",
           "keyword": "初めての",
           "date": null,
-          "summary": "New Chal 初めての方へ お子様のご利用 FLEEK ご利用ガイド 個人情報保護方針",
+          "summary": "A壁1級 54番 初めての方へ お子様のご利用 FLEEK ご利用ガイド 個人情報保護方針",
           "source_url": "https://climbing-cuore.com/"
         },
         {
@@ -187,7 +158,7 @@
           "source_url": "https://climbing-cuore.com/news"
         }
       ],
-      "last_checked": "2026-05-29T00:36:37.648385+00:00",
+      "last_checked": "2026-05-29T22:25:40.342408+00:00",
       "error": null
     },
     {
@@ -200,7 +171,7 @@
       "station": null,
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-05-29T00:36:46.885899+00:00",
+      "last_checked": "2026-05-29T22:25:53.367894+00:00",
       "error": null
     },
     {
@@ -213,7 +184,7 @@
       "station": "名古屋市地下鉄鶴舞線植田駅",
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-05-29T00:36:50.315056+00:00",
+      "last_checked": "2026-05-29T22:25:59.115178+00:00",
       "error": null
     },
     {
@@ -255,7 +226,7 @@
           "source_url": "https://climbing-gym-soleil2.com/"
         }
       ],
-      "last_checked": "2026-05-29T00:36:56.107451+00:00",
+      "last_checked": "2026-05-29T22:26:09.016256+00:00",
       "error": null
     }
   ]
