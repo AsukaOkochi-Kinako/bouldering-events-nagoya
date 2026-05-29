@@ -52,14 +52,6 @@ function makeSnippetEl(s) {
     snip.appendChild(dateEl);
   }
 
-  // 概要
-  if (s.summary) {
-    const sumEl = document.createElement("p");
-    sumEl.className = "snippet-summary";
-    sumEl.textContent = s.summary;
-    snip.appendChild(sumEl);
-  }
-
   return snip;
 }
 
