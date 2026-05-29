@@ -148,7 +148,6 @@ def fetch(url, timeout=15):
 
 def parse_event(context, keyword):
     """コンテキストテキストから日時・概要を構造化抽出する"""
-    # 日付抽出
     date = None
     m = DATE_RE.search(context)
     if m:
@@ -157,7 +156,6 @@ def parse_event(context, keyword):
         rm = RECURRING_RE.search(context)
         date = context[rm.start() : rm.start() + 20].strip()
 
-    # 概要: キーワードを含む文を優先して抽出
     sentences = re.split(r'[。！!？?\n]', context)
     relevant = [s.strip() for s in sentences if keyword in s and len(s.strip()) > 8]
     if not relevant:
@@ -168,35 +166,89 @@ def parse_event(context, keyword):
     return date, summary
 
 
-def extract_snippets(soup, source_url):
-    """キーワードを含む文脈テキストを日時・概要として構造化抽出する"""
-    snippets = []
-    seen = set()
+def extract_articles(soup, source_url):
+    """キーワードを含む記事のタイトル・日時・概要を抽出する（タイトルで重複除去）"""
+    seen_titles = set()
+    articles = []
 
     for tag in soup(["script", "style", "meta", "link", "noscript"]):
         tag.decompose()
 
-    text = soup.get_text(separator="\n", strip=True)
-    lines = [l.strip() for l in text.split("\n") if len(l.strip()) > 4]
+    page_title = ""
+    t = soup.find("title")
+    if t:
+        page_title = t.get_text(strip=True)
 
-    for i, line in enumerate(lines):
-        for kw in KEYWORDS:
-            if kw in line:
-                context = " ".join(lines[max(0, i - 1) : i + 5])[:400]
-                if context not in seen:
-                    seen.add(context)
-                    date, summary = parse_event(context, kw)
-                    snippets.append({
-                        "keyword": kw,
-                        "date":    date,
-                        "summary": summary,
-                        "source_url": source_url,
-                    })
+    # ── HTML構造アプローチ: article要素や記事っぽいdiv/liを探す ──
+    containers = soup.find_all("article")
+    if not containers:
+        containers = soup.find_all(
+            ["div", "li", "section"],
+            class_=re.compile(r'\b(?:post|entry|article|news|item|blog|topics?)\b', re.I)
+        )
+
+    for container in containers:
+        text = container.get_text(separator=" ", strip=True)
+        found_kw = next((kw for kw in KEYWORDS if kw in text), None)
+        if not found_kw:
+            continue
+
+        # タイトル: コンテナ内の見出し or リンクテキスト
+        heading = container.find(re.compile(r'^h[1-4]$'))
+        if heading:
+            title = heading.get_text(strip=True)
+        else:
+            a = container.find("a")
+            title = a.get_text(strip=True) if a else page_title
+
+        title = title[:80]
+        key = title.lower().strip()
+        if not key or key in seen_titles:
+            continue
+        seen_titles.add(key)
+
+        date, summary = parse_event(text, found_kw)
+        articles.append({
+            "title": title, "keyword": found_kw,
+            "date": date, "summary": summary, "source_url": source_url,
+        })
+        if len(articles) >= 5:
+            return articles
+
+    # ── フォールバック: テキストベースで直前の短い行をタイトルに ──
+    if not articles:
+        text_full = soup.get_text(separator="\n", strip=True)
+        lines = [l.strip() for l in text_full.split("\n") if len(l.strip()) > 4]
+
+        for i, line in enumerate(lines):
+            found_kw = next((kw for kw in KEYWORDS if kw in line), None)
+            if not found_kw:
+                continue
+
+            # 直前の短い行をタイトル候補にする
+            title = page_title
+            for j in range(i - 1, max(i - 12, -1), -1):
+                cand = lines[j]
+                if 5 < len(cand) <= 60 and found_kw not in cand:
+                    title = cand
+                    break
+
+            title = title[:80]
+            key = title.lower().strip()
+            if not key or key in seen_titles:
+                continue
+            seen_titles.add(key)
+
+            context = " ".join(lines[max(0, i - 1) : i + 5])[:400]
+            date, summary = parse_event(context, found_kw)
+            articles.append({
+                "title": title, "keyword": found_kw,
+                "date": date, "summary": summary, "source_url": source_url,
+            })
+            if len(articles) >= 5:
                 break
-        if len(snippets) >= 5:
-            break
 
-    return snippets
+    return articles
 
 
 def find_sub_pages(soup, base_url):
@@ -245,7 +297,7 @@ def scrape_gym(gym):
         result["error"] = err
         return result
 
-    all_snippets = extract_snippets(soup, gym["url"])
+    all_articles = extract_articles(soup, gym["url"])
     page_texts = [soup.get_text(separator=" ", strip=True)]
 
     sub_pages = find_sub_pages(soup, gym["url"])
@@ -253,20 +305,21 @@ def scrape_gym(gym):
         time.sleep(0.8)
         sub_soup, _ = fetch(sub_url)
         if sub_soup:
-            all_snippets.extend(extract_snippets(sub_soup, sub_url))
+            all_articles.extend(extract_articles(sub_soup, sub_url))
             page_texts.append(sub_soup.get_text(separator=" ", strip=True))
 
     # 駅名が未設定なら自動抽出
     if not result["station"]:
         result["station"] = extract_station(page_texts)
 
-    # 重複除去
-    seen_texts = set()
+    # タイトルで全ページ横断の重複除去
+    seen_titles = set()
     unique = []
-    for s in all_snippets:
-        if s["text"] not in seen_texts:
-            seen_texts.add(s["text"])
-            unique.append(s)
+    for a in all_articles:
+        key = a["title"].lower().strip()
+        if key not in seen_titles:
+            seen_titles.add(key)
+            unique.append(a)
 
     result["snippets"] = unique[:5]
     if result["snippets"]:
