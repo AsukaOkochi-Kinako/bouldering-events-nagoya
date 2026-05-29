@@ -44,7 +44,7 @@ GYMS = [
         "instagram_handle": None,
         "instagram_primary": False,
         "note": None,
-        "station": None,
+        "station": "東海通駅",
     },
     {
         "id": "cuore",
