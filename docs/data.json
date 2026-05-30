@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-29T22:26:25.220588+00:00",
+  "last_updated": "2026-05-30T21:57:14.129855+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -12,9 +12,9 @@
       "status": "found",
       "snippets": [
         {
-          "title": "【6月7日開催】千葉啓史さん特別ワークショップ「体幹を使えるクライマーになろう」",
+          "title": "KNOT BINGOイベント開催！登ってビンゴして景品GET！【名古屋・ボルダリングハウスノット】",
           "keyword": "試し履き",
-          "date": "6月7日",
+          "date": "2026年5月30日（土）",
           "summary": "つまり、 👉 霊仙山は初心者でも挑戦でき、登 4月26日 名古屋でevolv試し履き会｜ボルダリングシューズ試登・即売会【ボルダリングハウスノット】 ボルダリングシューズ試し履き会＆即売会、5月1日〜10日名古屋市ボルダリングハウスノットで開催　evolv試し履き会開催｜その一足が、登りを変える",
           "source_url": "https://www.bouldering-knot.com/blog"
         },
@@ -31,16 +31,9 @@
           "date": "2026年4月22日",
           "summary": "」 📊 課題概要 ・総課題数：35本 ・グレード：6級〜初段 ・初心者OKです 👉 「初めての方でも挑戦しやすい課題をご用意しています　初めての方でも楽しみながらステップアップできます",
           "source_url": "https://www.bouldering-knot.com/blog"
-        },
-        {
-          "title": "【予約ページをリニューアルしました】初回体験・パーソナルレッスンのご案内",
-          "keyword": "初めての",
-          "date": "4月10日",
-          "summary": "これまでよりも分かりやすく、 初めての方でも安心してご利用いただける内容になっています　スタッフが施設の使い方やルールをご案内しますので、 ボルダリングが初めての方でも安心して始められます",
-          "source_url": "https://www.bouldering-knot.com/blog"
         }
       ],
-      "last_checked": "2026-05-29T22:25:18.343478+00:00",
+      "last_checked": "2026-05-30T21:56:20.413914+00:00",
       "error": null
     },
     {
@@ -68,7 +61,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-05-29T22:25:25.426217+00:00",
+      "last_checked": "2026-05-30T21:56:25.754940+00:00",
       "error": null
     },
     {
@@ -117,7 +110,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-05-29T22:25:29.309417+00:00",
+      "last_checked": "2026-05-30T21:56:28.966078+00:00",
       "error": null
     },
     {
@@ -130,7 +123,7 @@
       "station": "東海通駅",
       "status": "error",
       "snippets": [],
-      "last_checked": "2026-05-29T22:25:38.421524+00:00",
+      "last_checked": "2026-05-30T21:56:37.453263+00:00",
       "error": "403 Client Error: Forbidden for url: https://colorfulrock.com/"
     },
     {
@@ -158,7 +151,7 @@
           "source_url": "https://climbing-cuore.com/news"
         }
       ],
-      "last_checked": "2026-05-29T22:25:40.342408+00:00",
+      "last_checked": "2026-05-30T21:56:43.733015+00:00",
       "error": null
     },
     {
@@ -171,7 +164,7 @@
       "station": null,
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-05-29T22:25:53.367894+00:00",
+      "last_checked": "2026-05-30T21:56:53.808916+00:00",
       "error": null
     },
     {
@@ -184,7 +177,7 @@
       "station": "名古屋市地下鉄鶴舞線植田駅",
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-05-29T22:25:59.115178+00:00",
+      "last_checked": "2026-05-30T21:56:58.996493+00:00",
       "error": null
     },
     {
@@ -226,7 +219,7 @@
           "source_url": "https://climbing-gym-soleil2.com/"
         }
       ],
-      "last_checked": "2026-05-29T22:26:09.016256+00:00",
+      "last_checked": "2026-05-30T21:57:06.909671+00:00",
       "error": null
     }
   ]
