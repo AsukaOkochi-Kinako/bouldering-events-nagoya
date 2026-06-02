@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-01T23:00:07.360120+00:00",
+  "last_updated": "2026-06-02T22:59:03.994548+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -9,31 +9,9 @@
       "instagram_primary": false,
       "note": null,
       "station": "名古屋駅",
-      "status": "found",
-      "snippets": [
-        {
-          "title": "KNOT BINGOイベント開催！登ってビンゴして景品GET！【名古屋・ボルダリングハウスノット】",
-          "keyword": "試し履き",
-          "date": "2026年5月30日（土）",
-          "summary": "つまり、 👉 霊仙山は初心者でも挑戦でき、登 4月26日 名古屋でevolv試し履き会｜ボルダリングシューズ試登・即売会【ボルダリングハウスノット】 ボルダリングシューズ試し履き会＆即売会、5月1日〜10日名古屋市ボルダリングハウスノットで開催　evolv試し履き会開催｜その一足が、登りを変える",
-          "source_url": "https://www.bouldering-knot.com/blog"
-        },
-        {
-          "title": "名古屋でevolv試し履き会｜ボルダリングシューズ試登・即売会【ボルダリングハウスノット】",
-          "keyword": "試し履き",
-          "date": "5月1日",
-          "summary": "名古屋でevolv試し履き会｜ボルダリングシューズ試登・即売会【ボルダリングハウスノット】 ボルダリングシューズ試し履き会＆即売会、5月1日〜10日名古屋市ボルダリングハウスノットで開催　evolv試し履き会開催｜その一足が、登りを変える",
-          "source_url": "https://www.bouldering-knot.com/blog"
-        },
-        {
-          "title": "【花水木課題】常設リニューアル｜全35本公開｜名古屋ボルダリング",
-          "keyword": "初めての",
-          "date": "2026年4月22日",
-          "summary": "」 📊 課題概要 ・総課題数：35本 ・グレード：6級〜初段 ・初心者OKです 👉 「初めての方でも挑戦しやすい課題をご用意しています　初めての方でも楽しみながらステップアップできます",
-          "source_url": "https://www.bouldering-knot.com/blog"
-        }
-      ],
-      "last_checked": "2026-06-01T22:59:17.228718+00:00",
+      "status": "not_found",
+      "snippets": [],
+      "last_checked": "2026-06-02T22:58:03.098964+00:00",
       "error": null
     },
     {
@@ -61,7 +39,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-06-01T22:59:20.661958+00:00",
+      "last_checked": "2026-06-02T22:58:15.177815+00:00",
       "error": null
     },
     {
@@ -110,7 +88,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-06-01T22:59:23.870113+00:00",
+      "last_checked": "2026-06-02T22:58:18.667017+00:00",
       "error": null
     },
     {
@@ -123,7 +101,7 @@
       "station": "東海通駅",
       "status": "error",
       "snippets": [],
-      "last_checked": "2026-06-01T22:59:32.322511+00:00",
+      "last_checked": "2026-06-02T22:58:26.477413+00:00",
       "error": "403 Client Error: Forbidden for url: https://colorfulrock.com/"
     },
     {
@@ -137,10 +115,10 @@
       "status": "found",
       "snippets": [
         {
-          "title": "G壁2段  74番",
+          "title": "B壁1級  56番",
           "keyword": "初めての",
           "date": null,
-          "summary": "G壁2段 74番 初めての方へ お子様のご利用 FLEEK ご利用ガイド 個人情報保護方針",
+          "summary": "B壁1級 56番 初めての方へ お子様のご利用 FLEEK ご利用ガイド 個人情報保護方針",
           "source_url": "https://climbing-cuore.com/"
         },
         {
@@ -151,7 +129,7 @@
           "source_url": "https://climbing-cuore.com/news"
         }
       ],
-      "last_checked": "2026-06-01T22:59:34.002359+00:00",
+      "last_checked": "2026-06-02T22:58:28.459230+00:00",
       "error": null
     },
     {
@@ -164,7 +142,7 @@
       "station": null,
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-06-01T22:59:45.958354+00:00",
+      "last_checked": "2026-06-02T22:58:40.406071+00:00",
       "error": null
     },
     {
@@ -177,7 +155,7 @@
       "station": "名古屋市地下鉄鶴舞線植田駅",
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-06-01T22:59:51.230887+00:00",
+      "last_checked": "2026-06-02T22:58:46.655387+00:00",
       "error": null
     },
     {
@@ -219,7 +197,7 @@
           "source_url": "https://climbing-gym-soleil2.com/"
         }
       ],
-      "last_checked": "2026-06-01T23:00:00.309583+00:00",
+      "last_checked": "2026-06-02T22:58:55.220145+00:00",
       "error": null
     }
   ]
