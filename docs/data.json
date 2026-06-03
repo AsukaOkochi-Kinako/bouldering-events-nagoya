@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-02T22:59:03.994548+00:00",
+  "last_updated": "2026-06-03T23:02:38.622740+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -11,7 +11,7 @@
       "station": "名古屋駅",
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-06-02T22:58:03.098964+00:00",
+      "last_checked": "2026-06-03T23:01:44.761439+00:00",
       "error": null
     },
     {
@@ -39,7 +39,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-06-02T22:58:15.177815+00:00",
+      "last_checked": "2026-06-03T23:01:49.539358+00:00",
       "error": null
     },
     {
@@ -88,7 +88,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-06-02T22:58:18.667017+00:00",
+      "last_checked": "2026-06-03T23:01:53.413563+00:00",
       "error": null
     },
     {
@@ -101,7 +101,7 @@
       "station": "東海通駅",
       "status": "error",
       "snippets": [],
-      "last_checked": "2026-06-02T22:58:26.477413+00:00",
+      "last_checked": "2026-06-03T23:02:01.995866+00:00",
       "error": "403 Client Error: Forbidden for url: https://colorfulrock.com/"
     },
     {
@@ -129,7 +129,7 @@
           "source_url": "https://climbing-cuore.com/news"
         }
       ],
-      "last_checked": "2026-06-02T22:58:28.459230+00:00",
+      "last_checked": "2026-06-03T23:02:03.923670+00:00",
       "error": null
     },
     {
@@ -142,7 +142,7 @@
       "station": null,
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-06-02T22:58:40.406071+00:00",
+      "last_checked": "2026-06-03T23:02:15.581858+00:00",
       "error": null
     },
     {
@@ -155,7 +155,7 @@
       "station": "名古屋市地下鉄鶴舞線植田駅",
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-06-02T22:58:46.655387+00:00",
+      "last_checked": "2026-06-03T23:02:21.618714+00:00",
       "error": null
     },
     {
@@ -197,7 +197,7 @@
           "source_url": "https://climbing-gym-soleil2.com/"
         }
       ],
-      "last_checked": "2026-06-02T22:58:55.220145+00:00",
+      "last_checked": "2026-06-03T23:02:30.648623+00:00",
       "error": null
     }
   ]
