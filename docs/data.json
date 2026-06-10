@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-09T22:20:35.287511+00:00",
+  "last_updated": "2026-06-10T22:51:01.450950+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -12,14 +12,28 @@
       "status": "found",
       "snippets": [
         {
+          "title": "アークテリクス名古屋リニューアルオープン記念！「OPENING CLIMB STAMP TOUR」に参加します",
+          "keyword": "初めての",
+          "date": "2026年6月11日",
+          "summary": "二段：2本 初段：4本 1級：8本 2級：10本 3級：10本 4級：10本 5級：10本 6級：10本 7級以下：10本 初心者の方が「初めての完登」を目指せる課題から、経験者が本気で打ち込める高難度課題まで、幅広い層に楽しんでいただける構成となっています",
+          "source_url": "https://www.bouldering-knot.com/blog"
+        },
+        {
           "title": "【翡翠壁2026】全面ホールド替え完了！74本の新課題とビンゴイベント開催",
           "keyword": "初めての",
-          "date": "5月31日",
-          "summary": "二段：2本 初段：4本 1級：8本 2級：10本 3級：10本 4級：10本 5級：10本 6級：10本 7級以下：10本 初心者の方が「初めての完登」を目指せる課題から、経験者が本気で打ち込める高難度課題まで、幅広い層に楽しんでいただける構成となっています　初めての方も、久しぶりの方も、常連の方も",
-          "source_url": "https://www.bouldering-knot.com/single-post/hisui-260531"
+          "date": "2026年5月31日",
+          "summary": "二段：2本 初段：4本 1級：8本 2級：10本 3級：10本 4級：10本 5級：10本 6級：10本 7級以下：10本 初心者の方が「初めての完登」を目指せる課題から、経験者が本気で打ち込める高難度課題まで、幅広い層に楽しんでいただける構成となっています",
+          "source_url": "https://www.bouldering-knot.com/blog"
+        },
+        {
+          "title": "お知らせ-Blog-｜名古屋市円頓寺商店街のアクティビティ体験ならBouldering House KNOT(ボルダリングハウスノット)",
+          "keyword": "初めての",
+          "date": "2026年5月31日",
+          "summary": "二段：2本 初段：4本 1級：8本 2級：10本 3級：10本 4級：10本 5級：10本 6級：10本 7級以下：10本 初心者の方が「初めての完登」を目指せる課題から、経験者が本気で打ち込める高難度課題まで、幅広い層に楽しんでいただける構成となっています",
+          "source_url": "https://www.bouldering-knot.com/blog"
         }
       ],
-      "last_checked": "2026-06-09T22:19:30.292530+00:00",
+      "last_checked": "2026-06-10T22:49:39.538150+00:00",
       "error": null
     },
     {
@@ -47,7 +61,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-06-09T22:19:36.425825+00:00",
+      "last_checked": "2026-06-10T22:49:44.006062+00:00",
       "error": null
     },
     {
@@ -96,7 +110,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-06-09T22:19:40.568396+00:00",
+      "last_checked": "2026-06-10T22:49:47.871833+00:00",
       "error": null
     },
     {
@@ -109,8 +123,8 @@
       "station": "東海通駅",
       "status": "error",
       "snippets": [],
-      "last_checked": "2026-06-09T22:19:49.752887+00:00",
-      "error": "403 Client Error: Forbidden for url: https://colorfulrock.com/"
+      "last_checked": "2026-06-10T22:49:56.770996+00:00",
+      "error": "HTTPSConnectionPool(host='colorfulrock.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='colorfulrock.com', port=443) at 0x7f90408be960>, 'Connection to colorfulrock.com timed out. (connect timeout=15)'))"
     },
     {
       "id": "cuore",
@@ -130,10 +144,10 @@
           "source_url": "https://climbing-cuore.com/"
         },
         {
-          "title": "H壁1級  65番",
+          "title": "E壁1級  61番",
           "keyword": "初めての",
           "date": null,
-          "summary": "H壁1級 65番 初めての方へ お子様のご利用 FLEEK ご利用ガイド 個人情報保護方針",
+          "summary": "E壁1級 61番 初めての方へ お子様のご利用 FLEEK ご利用ガイド 個人情報保護方針",
           "source_url": "https://climbing-cuore.com/"
         },
         {
@@ -151,14 +165,14 @@
           "source_url": "https://climbing-cuore.com/news"
         },
         {
-          "title": "5月 営業カレンダー - 名古屋でボルダリングするなら クライミングジム クオーレ",
+          "title": "6月 営業カレンダー - 名古屋でボルダリングするなら クライミングジム クオーレ",
           "keyword": "初めての",
           "date": null,
-          "summary": "5月 営業カレンダー - 名古屋でボルダリングするなら クライミングジム クオーレ 初めての方へ お子様のご利用 SIGN UP 初回利用登録はこちら FLEEK",
-          "source_url": "https://climbing-cuore.com/news/5%e6%9c%88%e3%80%80%e5%96%b6%e6%a5%ad%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-2/"
+          "summary": "6月 営業カレンダー - 名古屋でボルダリングするなら クライミングジム クオーレ 初めての方へ お子様のご利用 SIGN UP 初回利用登録はこちら FLEEK",
+          "source_url": "https://climbing-cuore.com/news/6%e6%9c%88%e3%80%80%e5%96%b6%e6%a5%ad%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-3/"
         }
       ],
-      "last_checked": "2026-06-09T22:19:51.706285+00:00",
+      "last_checked": "2026-06-10T22:50:13.170368+00:00",
       "error": null
     },
     {
@@ -171,7 +185,7 @@
       "station": null,
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-06-09T22:20:05.707177+00:00",
+      "last_checked": "2026-06-10T22:50:27.823045+00:00",
       "error": null
     },
     {
@@ -181,11 +195,11 @@
       "instagram_handle": null,
       "instagram_primary": false,
       "note": null,
-      "station": "名古屋市地下鉄鶴舞線植田駅",
-      "status": "not_found",
+      "station": null,
+      "status": "error",
       "snippets": [],
-      "last_checked": "2026-06-09T22:20:12.100369+00:00",
-      "error": null
+      "last_checked": "2026-06-10T22:50:36.076737+00:00",
+      "error": "HTTPSConnectionPool(host='tenova-climbing.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='tenova-climbing.com', port=443) at 0x7f90405e8200>, 'Connection to tenova-climbing.com timed out. (connect timeout=15)'))"
     },
     {
       "id": "soleil",
@@ -226,7 +240,7 @@
           "source_url": "https://climbing-gym-soleil2.com/"
         }
       ],
-      "last_checked": "2026-06-09T22:20:25.556152+00:00",
+      "last_checked": "2026-06-10T22:50:52.792539+00:00",
       "error": null
     }
   ]
