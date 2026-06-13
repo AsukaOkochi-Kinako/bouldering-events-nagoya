@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-12T22:22:25.006645+00:00",
+  "last_updated": "2026-06-13T21:59:31.807545+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -33,7 +33,7 @@
           "source_url": "https://www.bouldering-knot.com/blog"
         }
       ],
-      "last_checked": "2026-06-12T22:21:27.355743+00:00",
+      "last_checked": "2026-06-13T21:58:34.749318+00:00",
       "error": null
     },
     {
@@ -61,7 +61,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-06-12T22:21:31.625686+00:00",
+      "last_checked": "2026-06-13T21:58:42.813249+00:00",
       "error": null
     },
     {
@@ -110,7 +110,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-06-12T22:21:35.762630+00:00",
+      "last_checked": "2026-06-13T21:58:46.062563+00:00",
       "error": null
     },
     {
@@ -123,7 +123,7 @@
       "station": "東海通駅",
       "status": "error",
       "snippets": [],
-      "last_checked": "2026-06-12T22:21:44.673279+00:00",
+      "last_checked": "2026-06-13T21:58:54.811977+00:00",
       "error": "403 Client Error: Forbidden for url: https://colorfulrock.com/"
     },
     {
@@ -144,10 +144,10 @@
           "source_url": "https://climbing-cuore.com/"
         },
         {
-          "title": "【イベント開催に伴う貸切営業のお",
+          "title": "E壁1級  60番",
           "keyword": "初めての",
           "date": null,
-          "summary": "【イベント開催に伴う貸切営業のお 初めての方へ お子様のご利用 FLEEK ご利用ガイド 個人情報保護方針",
+          "summary": "E壁1級 60番 初めての方へ お子様のご利用 FLEEK ご利用ガイド 個人情報保護方針",
           "source_url": "https://climbing-cuore.com/"
         },
         {
@@ -172,7 +172,7 @@
           "source_url": "https://climbing-cuore.com/news/6%e6%9c%88%e3%80%80%e5%96%b6%e6%a5%ad%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-3/"
         }
       ],
-      "last_checked": "2026-06-12T22:21:46.749530+00:00",
+      "last_checked": "2026-06-13T21:58:56.747832+00:00",
       "error": null
     },
     {
@@ -185,7 +185,7 @@
       "station": null,
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-06-12T22:22:00.575508+00:00",
+      "last_checked": "2026-06-13T21:59:09.735840+00:00",
       "error": null
     },
     {
@@ -198,7 +198,7 @@
       "station": "名古屋市地下鉄鶴舞線植田駅",
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-06-12T22:22:06.047015+00:00",
+      "last_checked": "2026-06-13T21:59:15.068943+00:00",
       "error": null
     },
     {
@@ -240,7 +240,7 @@
           "source_url": "https://climbing-gym-soleil2.com/"
         }
       ],
-      "last_checked": "2026-06-12T22:22:16.583942+00:00",
+      "last_checked": "2026-06-13T21:59:24.536514+00:00",
       "error": null
     }
   ]
