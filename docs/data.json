@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-17T22:44:05.963130+00:00",
+  "last_updated": "2026-06-18T22:54:42.188546+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -33,7 +33,7 @@
           "source_url": "https://www.bouldering-knot.com/blog"
         }
       ],
-      "last_checked": "2026-06-17T22:42:57.860384+00:00",
+      "last_checked": "2026-06-18T22:53:46.706702+00:00",
       "error": null
     },
     {
@@ -61,7 +61,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-06-17T22:43:08.281088+00:00",
+      "last_checked": "2026-06-18T22:53:52.332139+00:00",
       "error": null
     },
     {
@@ -110,7 +110,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-06-17T22:43:12.401817+00:00",
+      "last_checked": "2026-06-18T22:53:55.936560+00:00",
       "error": null
     },
     {
@@ -123,7 +123,7 @@
       "station": "東海通駅",
       "status": "error",
       "snippets": [],
-      "last_checked": "2026-06-17T22:43:21.192105+00:00",
+      "last_checked": "2026-06-18T22:54:04.366950+00:00",
       "error": "403 Client Error: Forbidden for url: https://colorfulrock.com/"
     },
     {
@@ -134,10 +134,46 @@
       "instagram_primary": false,
       "note": null,
       "station": null,
-      "status": "error",
-      "snippets": [],
-      "last_checked": "2026-06-17T22:43:23.161497+00:00",
-      "error": "HTTPSConnectionPool(host='climbing-cuore.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='climbing-cuore.com', port=443) at 0x7f0183efd160>, 'Connection to climbing-cuore.com timed out. (connect timeout=15)'))"
+      "status": "found",
+      "snippets": [
+        {
+          "title": "[クオーレ公式]名古屋でボルダリング・クライミングジム",
+          "keyword": "初めての",
+          "date": null,
+          "summary": "[クオーレ公式]名古屋でボルダリング・クライミングジム 初めての方へ お子様のご利用 SIGN UP 初回利用登録はこちら FLEEK",
+          "source_url": "https://climbing-cuore.com/"
+        },
+        {
+          "title": "F壁1級  55番",
+          "keyword": "初めての",
+          "date": null,
+          "summary": "F壁1級 55番 初めての方へ お子様のご利用 FLEEK ご利用ガイド 個人情報保護方針",
+          "source_url": "https://climbing-cuore.com/"
+        },
+        {
+          "title": "新着情報 - 名古屋でボルダリングするなら クライミングジム クオーレ",
+          "keyword": "初めての",
+          "date": null,
+          "summary": "新着情報 - 名古屋でボルダリングするなら クライミングジム クオーレ 初めての方へ お子様のご利用 SIGN UP 初回利用登録はこちら FLEEK",
+          "source_url": "https://climbing-cuore.com/news"
+        },
+        {
+          "title": "初回利用登録はこちら",
+          "keyword": "初めての",
+          "date": null,
+          "summary": "初回利用登録はこちら 初めての方へ お子様のご利用 FLEEK ご利用ガイド 個人情報保護方針",
+          "source_url": "https://climbing-cuore.com/news"
+        },
+        {
+          "title": "6月 営業カレンダー - 名古屋でボルダリングするなら クライミングジム クオーレ",
+          "keyword": "初めての",
+          "date": null,
+          "summary": "6月 営業カレンダー - 名古屋でボルダリングするなら クライミングジム クオーレ 初めての方へ お子様のご利用 SIGN UP 初回利用登録はこちら FLEEK",
+          "source_url": "https://climbing-cuore.com/news/6%e6%9c%88%e3%80%80%e5%96%b6%e6%a5%ad%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-3/"
+        }
+      ],
+      "last_checked": "2026-06-18T22:54:06.325470+00:00",
+      "error": null
     },
     {
       "id": "bolsta",
@@ -149,7 +185,7 @@
       "station": null,
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-06-17T22:43:40.064656+00:00",
+      "last_checked": "2026-06-18T22:54:18.149548+00:00",
       "error": null
     },
     {
@@ -162,7 +198,7 @@
       "station": "名古屋市地下鉄鶴舞線植田駅",
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-06-17T22:43:47.840476+00:00",
+      "last_checked": "2026-06-18T22:54:23.832589+00:00",
       "error": null
     },
     {
@@ -204,7 +240,7 @@
           "source_url": "https://climbing-gym-soleil2.com/"
         }
       ],
-      "last_checked": "2026-06-17T22:43:57.638617+00:00",
+      "last_checked": "2026-06-18T22:54:33.890675+00:00",
       "error": null
     }
   ]
