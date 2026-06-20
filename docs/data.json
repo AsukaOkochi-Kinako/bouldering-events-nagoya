@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19T22:01:48.957731+00:00",
+  "last_updated": "2026-06-20T22:03:10.746520+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -33,7 +33,7 @@
           "source_url": "https://www.bouldering-knot.com/blog"
         }
       ],
-      "last_checked": "2026-06-19T22:00:31.947255+00:00",
+      "last_checked": "2026-06-20T22:02:08.897220+00:00",
       "error": null
     },
     {
@@ -61,7 +61,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-06-19T22:00:36.384954+00:00",
+      "last_checked": "2026-06-20T22:02:13.168786+00:00",
       "error": null
     },
     {
@@ -110,7 +110,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-06-19T22:00:40.428159+00:00",
+      "last_checked": "2026-06-20T22:02:16.968960+00:00",
       "error": null
     },
     {
@@ -123,8 +123,8 @@
       "station": "東海通駅",
       "status": "error",
       "snippets": [],
-      "last_checked": "2026-06-19T22:00:49.141115+00:00",
-      "error": "HTTPSConnectionPool(host='colorfulrock.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='colorfulrock.com', port=443) at 0x7fc61961ea20>, 'Connection to colorfulrock.com timed out. (connect timeout=15)'))"
+      "last_checked": "2026-06-20T22:02:27.416228+00:00",
+      "error": "403 Client Error: Forbidden for url: https://colorfulrock.com/"
     },
     {
       "id": "cuore",
@@ -134,46 +134,10 @@
       "instagram_primary": false,
       "note": null,
       "station": null,
-      "status": "found",
-      "snippets": [
-        {
-          "title": "[クオーレ公式]名古屋でボルダリング・クライミングジム",
-          "keyword": "初めての",
-          "date": null,
-          "summary": "[クオーレ公式]名古屋でボルダリング・クライミングジム 初めての方へ お子様のご利用 SIGN UP 初回利用登録はこちら FLEEK",
-          "source_url": "https://climbing-cuore.com/"
-        },
-        {
-          "title": "F壁1級  55番",
-          "keyword": "初めての",
-          "date": null,
-          "summary": "F壁1級 55番 初めての方へ お子様のご利用 FLEEK ご利用ガイド 個人情報保護方針",
-          "source_url": "https://climbing-cuore.com/"
-        },
-        {
-          "title": "新着情報 - 名古屋でボルダリングするなら クライミングジム クオーレ",
-          "keyword": "初めての",
-          "date": null,
-          "summary": "新着情報 - 名古屋でボルダリングするなら クライミングジム クオーレ 初めての方へ お子様のご利用 SIGN UP 初回利用登録はこちら FLEEK",
-          "source_url": "https://climbing-cuore.com/news"
-        },
-        {
-          "title": "初回利用登録はこちら",
-          "keyword": "初めての",
-          "date": null,
-          "summary": "初回利用登録はこちら 初めての方へ お子様のご利用 FLEEK ご利用ガイド 個人情報保護方針",
-          "source_url": "https://climbing-cuore.com/news"
-        },
-        {
-          "title": "6月 営業カレンダー - 名古屋でボルダリングするなら クライミングジム クオーレ",
-          "keyword": "初めての",
-          "date": null,
-          "summary": "6月 営業カレンダー - 名古屋でボルダリングするなら クライミングジム クオーレ 初めての方へ お子様のご利用 SIGN UP 初回利用登録はこちら FLEEK",
-          "source_url": "https://climbing-cuore.com/news/6%e6%9c%88%e3%80%80%e5%96%b6%e6%a5%ad%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-3/"
-        }
-      ],
-      "last_checked": "2026-06-19T22:01:05.560424+00:00",
-      "error": null
+      "status": "error",
+      "snippets": [],
+      "last_checked": "2026-06-20T22:02:29.422508+00:00",
+      "error": "HTTPSConnectionPool(host='climbing-cuore.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='climbing-cuore.com', port=443) at 0x7f3719596ba0>, 'Connection to climbing-cuore.com timed out. (connect timeout=15)'))"
     },
     {
       "id": "bolsta",
@@ -185,7 +149,7 @@
       "station": null,
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-06-19T22:01:18.285381+00:00",
+      "last_checked": "2026-06-20T22:02:46.498385+00:00",
       "error": null
     },
     {
@@ -195,11 +159,11 @@
       "instagram_handle": null,
       "instagram_primary": false,
       "note": null,
-      "station": null,
-      "status": "error",
+      "station": "名古屋市地下鉄鶴舞線植田駅",
+      "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-06-19T22:01:24.050757+00:00",
-      "error": "HTTPSConnectionPool(host='tenova-climbing.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='tenova-climbing.com', port=443) at 0x7fc618928a40>, 'Connection to tenova-climbing.com timed out. (connect timeout=15)'))"
+      "last_checked": "2026-06-20T22:02:52.614773+00:00",
+      "error": null
     },
     {
       "id": "soleil",
@@ -240,7 +204,7 @@
           "source_url": "https://climbing-gym-soleil2.com/"
         }
       ],
-      "last_checked": "2026-06-19T22:01:40.518263+00:00",
+      "last_checked": "2026-06-20T22:03:02.267395+00:00",
       "error": null
     }
   ]
