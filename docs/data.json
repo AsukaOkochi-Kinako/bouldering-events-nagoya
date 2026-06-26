@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-25T22:18:24.351356+00:00",
+  "last_updated": "2026-06-26T22:08:07.567261+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -12,9 +12,9 @@
       "status": "found",
       "snippets": [
         {
-          "title": "アークテリクス名古屋リニューアルオープン記念！「OPENING CLIMB STAMP TOUR」に参加します",
+          "title": "【2026年6月】「さくらんぼ狩り課題」公開！新たに31本追加、全99本のボルダリング課題へ",
           "keyword": "初めての",
-          "date": "2026年6月11日",
+          "date": "2026年6月26日（金）",
           "summary": "二段：2本 初段：4本 1級：8本 2級：10本 3級：10本 4級：10本 5級：10本 6級：10本 7級以下：10本 初心者の方が「初めての完登」を目指せる課題から、経験者が本気で打ち込める高難度課題まで、幅広い層に楽しんでいただける構成となっています",
           "source_url": "https://www.bouldering-knot.com/blog"
         },
@@ -33,7 +33,7 @@
           "source_url": "https://www.bouldering-knot.com/blog"
         }
       ],
-      "last_checked": "2026-06-25T22:17:26.254983+00:00",
+      "last_checked": "2026-06-26T22:07:14.309504+00:00",
       "error": null
     },
     {
@@ -61,7 +61,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-06-25T22:17:33.186041+00:00",
+      "last_checked": "2026-06-26T22:07:18.940353+00:00",
       "error": null
     },
     {
@@ -110,7 +110,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-06-25T22:17:36.899564+00:00",
+      "last_checked": "2026-06-26T22:07:22.032955+00:00",
       "error": null
     },
     {
@@ -123,7 +123,7 @@
       "station": "東海通駅",
       "status": "error",
       "snippets": [],
-      "last_checked": "2026-06-25T22:17:45.642985+00:00",
+      "last_checked": "2026-06-26T22:07:29.482933+00:00",
       "error": "403 Client Error: Forbidden for url: https://colorfulrock.com/"
     },
     {
@@ -172,7 +172,7 @@
           "source_url": "https://climbing-cuore.com/news/6%e6%9c%88%e3%80%80%e5%96%b6%e6%a5%ad%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-3/"
         }
       ],
-      "last_checked": "2026-06-25T22:17:47.615165+00:00",
+      "last_checked": "2026-06-26T22:07:31.178218+00:00",
       "error": null
     },
     {
@@ -185,7 +185,7 @@
       "station": null,
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-06-25T22:18:00.509866+00:00",
+      "last_checked": "2026-06-26T22:07:42.675569+00:00",
       "error": null
     },
     {
@@ -198,7 +198,7 @@
       "station": "名古屋市地下鉄鶴舞線植田駅",
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-06-25T22:18:06.827517+00:00",
+      "last_checked": "2026-06-26T22:07:47.715621+00:00",
       "error": null
     },
     {
@@ -240,7 +240,7 @@
           "source_url": "https://climbing-gym-soleil2.com/"
         }
       ],
-      "last_checked": "2026-06-25T22:18:16.176975+00:00",
+      "last_checked": "2026-06-26T22:08:00.384093+00:00",
       "error": null
     }
   ]
