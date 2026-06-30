@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29T22:07:25.349179+00:00",
+  "last_updated": "2026-06-30T22:14:05.399298+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -12,7 +12,7 @@
       "status": "found",
       "snippets": [
         {
-          "title": "【2026年6月】「さくらんぼ狩り課題」公開！新たに31本追加、全99本のボルダリング課題へ",
+          "title": "2026年7月の営業日,営業時間のお知らせ",
           "keyword": "初めての",
           "date": "2026年6月26日（金）",
           "summary": "二段：2本 初段：4本 1級：8本 2級：10本 3級：10本 4級：10本 5級：10本 6級：10本 7級以下：10本 初心者の方が「初めての完登」を目指せる課題から、経験者が本気で打ち込める高難度課題まで、幅広い層に楽しんでいただける構成となっています",
@@ -33,7 +33,7 @@
           "source_url": "https://www.bouldering-knot.com/blog"
         }
       ],
-      "last_checked": "2026-06-29T22:06:02.221751+00:00",
+      "last_checked": "2026-06-30T22:12:49.642696+00:00",
       "error": null
     },
     {
@@ -61,7 +61,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-06-29T22:06:15.456484+00:00",
+      "last_checked": "2026-06-30T22:13:14.130256+00:00",
       "error": null
     },
     {
@@ -110,7 +110,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-06-29T22:06:18.838985+00:00",
+      "last_checked": "2026-06-30T22:13:17.758266+00:00",
       "error": null
     },
     {
@@ -123,8 +123,8 @@
       "station": "東海通駅",
       "status": "error",
       "snippets": [],
-      "last_checked": "2026-06-29T22:06:27.696910+00:00",
-      "error": "HTTPSConnectionPool(host='colorfulrock.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='colorfulrock.com', port=443) at 0x7fb57c811bb0>, 'Connection to colorfulrock.com timed out. (connect timeout=15)'))"
+      "last_checked": "2026-06-30T22:13:26.780951+00:00",
+      "error": "403 Client Error: Forbidden for url: https://colorfulrock.com/"
     },
     {
       "id": "cuore",
@@ -144,10 +144,10 @@
           "source_url": "https://climbing-cuore.com/"
         },
         {
-          "title": "D壁1級  58番",
+          "title": "B壁1級  54番",
           "keyword": "初めての",
           "date": null,
-          "summary": "D壁1級 58番 初めての方へ お子様のご利用 FLEEK ご利用ガイド 個人情報保護方針",
+          "summary": "B壁1級 54番 初めての方へ お子様のご利用 FLEEK ご利用ガイド 個人情報保護方針",
           "source_url": "https://climbing-cuore.com/"
         },
         {
@@ -172,7 +172,7 @@
           "source_url": "https://climbing-cuore.com/news/6%e6%9c%88%e3%80%80%e5%96%b6%e6%a5%ad%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-3/"
         }
       ],
-      "last_checked": "2026-06-29T22:06:44.096429+00:00",
+      "last_checked": "2026-06-30T22:13:28.747557+00:00",
       "error": null
     },
     {
@@ -185,7 +185,7 @@
       "station": null,
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-06-29T22:06:56.077619+00:00",
+      "last_checked": "2026-06-30T22:13:42.232465+00:00",
       "error": null
     },
     {
@@ -195,11 +195,11 @@
       "instagram_handle": null,
       "instagram_primary": false,
       "note": null,
-      "station": null,
-      "status": "error",
+      "station": "名古屋市地下鉄鶴舞線植田駅",
+      "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-06-29T22:07:01.091667+00:00",
-      "error": "HTTPSConnectionPool(host='tenova-climbing.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='tenova-climbing.com', port=443) at 0x7fb57c79bec0>, 'Connection to tenova-climbing.com timed out. (connect timeout=15)'))"
+      "last_checked": "2026-06-30T22:13:47.647556+00:00",
+      "error": null
     },
     {
       "id": "soleil",
@@ -240,7 +240,7 @@
           "source_url": "https://climbing-gym-soleil2.com/"
         }
       ],
-      "last_checked": "2026-06-29T22:07:17.489847+00:00",
+      "last_checked": "2026-06-30T22:13:57.028162+00:00",
       "error": null
     }
   ]
