@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-05T21:57:03.483485+00:00",
+  "last_updated": "2026-07-06T22:10:47.443256+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -33,7 +33,7 @@
           "source_url": "https://www.bouldering-knot.com/blog"
         }
       ],
-      "last_checked": "2026-07-05T21:56:15.202252+00:00",
+      "last_checked": "2026-07-06T22:09:25.665842+00:00",
       "error": null
     },
     {
@@ -61,7 +61,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-07-05T21:56:19.991386+00:00",
+      "last_checked": "2026-07-06T22:09:35.359845+00:00",
       "error": null
     },
     {
@@ -110,7 +110,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-07-05T21:56:22.967400+00:00",
+      "last_checked": "2026-07-06T22:09:38.861050+00:00",
       "error": null
     },
     {
@@ -123,8 +123,8 @@
       "station": "東海通駅",
       "status": "error",
       "snippets": [],
-      "last_checked": "2026-07-05T21:56:30.804590+00:00",
-      "error": "403 Client Error: Forbidden for url: https://colorfulrock.com/"
+      "last_checked": "2026-07-06T22:09:48.280073+00:00",
+      "error": "HTTPSConnectionPool(host='colorfulrock.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='colorfulrock.com', port=443) at 0x7f0ed5af3320>, 'Connection to colorfulrock.com timed out. (connect timeout=15)'))"
     },
     {
       "id": "cuore",
@@ -172,7 +172,7 @@
           "source_url": "https://climbing-cuore.com/news/7%e6%9c%88%e3%80%80%e5%96%b6%e6%a5%ad%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-3/"
         }
       ],
-      "last_checked": "2026-07-05T21:56:32.497985+00:00",
+      "last_checked": "2026-07-06T22:10:04.694655+00:00",
       "error": null
     },
     {
@@ -185,7 +185,7 @@
       "station": null,
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-07-05T21:56:43.783790+00:00",
+      "last_checked": "2026-07-06T22:10:17.446565+00:00",
       "error": null
     },
     {
@@ -195,11 +195,11 @@
       "instagram_handle": null,
       "instagram_primary": false,
       "note": null,
-      "station": "名古屋市地下鉄鶴舞線植田駅",
-      "status": "not_found",
+      "station": null,
+      "status": "error",
       "snippets": [],
-      "last_checked": "2026-07-05T21:56:48.612226+00:00",
-      "error": null
+      "last_checked": "2026-07-06T22:10:22.675701+00:00",
+      "error": "HTTPSConnectionPool(host='tenova-climbing.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='tenova-climbing.com', port=443) at 0x7f0ed66ce390>, 'Connection to tenova-climbing.com timed out. (connect timeout=15)'))"
     },
     {
       "id": "soleil",
@@ -240,7 +240,7 @@
           "source_url": "https://climbing-gym-soleil2.com/"
         }
       ],
-      "last_checked": "2026-07-05T21:56:56.407670+00:00",
+      "last_checked": "2026-07-06T22:10:39.158246+00:00",
       "error": null
     }
   ]
