@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-07T22:08:42.530228+00:00",
+  "last_updated": "2026-07-08T22:02:29.631419+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -12,10 +12,17 @@
       "status": "found",
       "snippets": [
         {
-          "title": "夏休み小学生ボルダリング3日間体験会",
+          "title": "ホールドシェイプ体験ワークショップ開催",
           "keyword": "体験会",
           "date": "6月30日",
-          "summary": "夏休み小学生ボルダリング3日間体験会 6 時間前 2026年7月の営業日,営業時間のお知らせ 6月30日 【2026年6月】「さくらんぼ狩り課題」公開",
+          "summary": "ホールドシェイプ体験ワークショップ開催 18 分前 夏休み小学生ボルダリング3日間体験会 1 日前 2026年7月の営業日,営業時間のお知らせ 6月30日",
+          "source_url": "https://www.bouldering-knot.com/"
+        },
+        {
+          "title": "夏休み小学生ボルダリング3日間体験会",
+          "keyword": "体験会",
+          "date": null,
+          "summary": "夏休み小学生ボルダリング3日間体験会 1 日前",
           "source_url": "https://www.bouldering-knot.com/"
         },
         {
@@ -28,26 +35,12 @@
         {
           "title": "【翡翠壁2026】全面ホールド替え完了！74本の新課題とビンゴイベント開催",
           "keyword": "初めての",
-          "date": "2026年5月31日",
-          "summary": "二段：2本 初段：4本 1級：8本 2級：10本 3級：10本 4級：10本 5級：10本 6級：10本 7級以下：10本 初心者の方が「初めての完登」を目指せる課題から、経験者が本気で打ち込める高難度課題まで、幅広い層に楽しんでいただける構成となっています",
-          "source_url": "https://www.bouldering-knot.com/blog"
-        },
-        {
-          "title": "#古民家ボルダリング",
-          "keyword": "体験会",
-          "date": null,
-          "summary": "すべて表示 夏休み小学生ボルダリング3日間体験会 【2026年6月】「さくらんぼ狩り課題」公開",
-          "source_url": "https://www.bouldering-knot.com/single-post/calendar2607"
-        },
-        {
-          "title": "Atsushi",
-          "keyword": "体験会",
-          "date": null,
-          "summary": "最新の投稿 夏休み小学生ボルダリング3日間体験会 夏休み小学生ボルダリング3日間体験会 今年の夏休みは、涼しい室内で頭と体をフルに使うボルダリングに挑戦してみませんか",
-          "source_url": "https://www.bouldering-knot.com/single-post/calendar2607"
+          "date": "5月31日",
+          "summary": "二段：2本 初段：4本 1級：8本 2級：10本 3級：10本 4級：10本 5級：10本 6級：10本 7級以下：10本 初心者の方が「初めての完登」を目指せる課題から、経験者が本気で打ち込める高難度課題まで、幅広い層に楽しんでいただける構成となっています　初めての方も、久しぶりの方も、常連の方も",
+          "source_url": "https://www.bouldering-knot.com/single-post/hisui-260531"
         }
       ],
-      "last_checked": "2026-07-07T22:07:42.536911+00:00",
+      "last_checked": "2026-07-08T22:01:09.320624+00:00",
       "error": null
     },
     {
@@ -75,7 +68,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-07-07T22:07:52.675665+00:00",
+      "last_checked": "2026-07-08T22:01:19.019081+00:00",
       "error": null
     },
     {
@@ -124,7 +117,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-07-07T22:07:55.667647+00:00",
+      "last_checked": "2026-07-08T22:01:22.581219+00:00",
       "error": null
     },
     {
@@ -137,8 +130,8 @@
       "station": "東海通駅",
       "status": "error",
       "snippets": [],
-      "last_checked": "2026-07-07T22:08:03.663849+00:00",
-      "error": "403 Client Error: Forbidden for url: https://colorfulrock.com/"
+      "last_checked": "2026-07-08T22:01:32.168352+00:00",
+      "error": "HTTPSConnectionPool(host='colorfulrock.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='colorfulrock.com', port=443) at 0x7fc651f7fda0>, 'Connection to colorfulrock.com timed out. (connect timeout=15)'))"
     },
     {
       "id": "cuore",
@@ -148,46 +141,10 @@
       "instagram_primary": false,
       "note": null,
       "station": null,
-      "status": "found",
-      "snippets": [
-        {
-          "title": "[クオーレ公式]名古屋でボルダリング・クライミングジム",
-          "keyword": "初めての",
-          "date": null,
-          "summary": "[クオーレ公式]名古屋でボルダリング・クライミングジム 初めての方へ お子様のご利用 SIGN UP 初回利用登録はこちら FLEEK",
-          "source_url": "https://climbing-cuore.com/"
-        },
-        {
-          "title": "BC壁初段  74番",
-          "keyword": "初めての",
-          "date": null,
-          "summary": "BC壁初段 74番 初めての方へ お子様のご利用 FLEEK ご利用ガイド 個人情報保護方針",
-          "source_url": "https://climbing-cuore.com/"
-        },
-        {
-          "title": "新着情報 - 名古屋でボルダリングするなら クライミングジム クオーレ",
-          "keyword": "初めての",
-          "date": null,
-          "summary": "新着情報 - 名古屋でボルダリングするなら クライミングジム クオーレ 初めての方へ お子様のご利用 SIGN UP 初回利用登録はこちら FLEEK",
-          "source_url": "https://climbing-cuore.com/news"
-        },
-        {
-          "title": "初回利用登録はこちら",
-          "keyword": "初めての",
-          "date": null,
-          "summary": "初回利用登録はこちら 初めての方へ お子様のご利用 FLEEK ご利用ガイド 個人情報保護方針",
-          "source_url": "https://climbing-cuore.com/news"
-        },
-        {
-          "title": "7月 営業カレンダー - 名古屋でボルダリングするなら クライミングジム クオーレ",
-          "keyword": "初めての",
-          "date": null,
-          "summary": "7月 営業カレンダー - 名古屋でボルダリングするなら クライミングジム クオーレ 初めての方へ お子様のご利用 SIGN UP 初回利用登録はこちら FLEEK",
-          "source_url": "https://climbing-cuore.com/news/7%e6%9c%88%e3%80%80%e5%96%b6%e6%a5%ad%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-3/"
-        }
-      ],
-      "last_checked": "2026-07-07T22:08:05.527258+00:00",
-      "error": null
+      "status": "error",
+      "snippets": [],
+      "last_checked": "2026-07-08T22:01:48.647555+00:00",
+      "error": "HTTPSConnectionPool(host='climbing-cuore.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='climbing-cuore.com', port=443) at 0x7fc651f23260>, 'Connection to climbing-cuore.com timed out. (connect timeout=15)'))"
     },
     {
       "id": "bolsta",
@@ -199,7 +156,7 @@
       "station": null,
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-07-07T22:08:17.463506+00:00",
+      "last_checked": "2026-07-08T22:02:05.262793+00:00",
       "error": null
     },
     {
@@ -212,7 +169,7 @@
       "station": "名古屋市地下鉄鶴舞線植田駅",
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-07-07T22:08:22.052888+00:00",
+      "last_checked": "2026-07-08T22:02:10.605177+00:00",
       "error": null
     },
     {
@@ -254,7 +211,7 @@
           "source_url": "https://climbing-gym-soleil2.com/"
         }
       ],
-      "last_checked": "2026-07-07T22:08:30.095458+00:00",
+      "last_checked": "2026-07-08T22:02:19.531966+00:00",
       "error": null
     }
   ]
