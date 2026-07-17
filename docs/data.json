@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-16T22:00:13.167082+00:00",
+  "last_updated": "2026-07-17T21:46:05.489523+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -15,14 +15,14 @@
           "title": "ホールドシェイプ体験ワークショップ開催",
           "keyword": "体験会",
           "date": "6月30日",
-          "summary": "ホールドシェイプ体験ワークショップ開催 4 日前 夏休み小学生ボルダリング3日間体験会 6 日前 2026年7月の営業日,営業時間のお知らせ 6月30日",
+          "summary": "ホールドシェイプ体験ワークショップ開催 4 日前 夏休み小学生ボルダリング3日間体験会 5 日前 2026年7月の営業日,営業時間のお知らせ 6月30日",
           "source_url": "https://www.bouldering-knot.com/"
         },
         {
           "title": "夏休み小学生ボルダリング3日間体験会",
           "keyword": "体験会",
           "date": null,
-          "summary": "夏休み小学生ボルダリング3日間体験会 6 日前",
+          "summary": "夏休み小学生ボルダリング3日間体験会 5 日前",
           "source_url": "https://www.bouldering-knot.com/"
         },
         {
@@ -40,7 +40,7 @@
           "source_url": "https://www.bouldering-knot.com/single-post/hisui-260531"
         }
       ],
-      "last_checked": "2026-07-16T21:59:23.641641+00:00",
+      "last_checked": "2026-07-17T21:45:04.825013+00:00",
       "error": null
     },
     {
@@ -68,7 +68,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-07-16T21:59:28.772056+00:00",
+      "last_checked": "2026-07-17T21:45:14.181356+00:00",
       "error": null
     },
     {
@@ -117,7 +117,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-07-16T21:59:31.794162+00:00",
+      "last_checked": "2026-07-17T21:45:17.620877+00:00",
       "error": null
     },
     {
@@ -130,7 +130,7 @@
       "station": "東海通駅",
       "status": "error",
       "snippets": [],
-      "last_checked": "2026-07-16T21:59:39.777809+00:00",
+      "last_checked": "2026-07-17T21:45:27.038450+00:00",
       "error": "403 Client Error: Forbidden for url: https://colorfulrock.com/"
     },
     {
@@ -179,7 +179,7 @@
           "source_url": "https://climbing-cuore.com/news/7%e6%9c%88%e3%80%80%e5%96%b6%e6%a5%ad%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-3/"
         }
       ],
-      "last_checked": "2026-07-16T21:59:41.475015+00:00",
+      "last_checked": "2026-07-17T21:45:29.045651+00:00",
       "error": null
     },
     {
@@ -192,7 +192,7 @@
       "station": null,
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-07-16T21:59:52.584084+00:00",
+      "last_checked": "2026-07-17T21:45:42.412043+00:00",
       "error": null
     },
     {
@@ -205,7 +205,7 @@
       "station": "名古屋市地下鉄鶴舞線植田駅",
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-07-16T21:59:57.405908+00:00",
+      "last_checked": "2026-07-17T21:45:47.632169+00:00",
       "error": null
     },
     {
@@ -247,7 +247,7 @@
           "source_url": "https://climbing-gym-soleil2.com/"
         }
       ],
-      "last_checked": "2026-07-16T22:00:05.788693+00:00",
+      "last_checked": "2026-07-17T21:45:56.807297+00:00",
       "error": null
     }
   ]
