@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-30T22:08:49.789622+00:00",
+  "last_updated": "2026-07-31T22:00:23.366114+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -12,35 +12,42 @@
       "status": "found",
       "snippets": [
         {
-          "title": "ホールドシェイプ体験ワークショップ開催",
+          "title": "2026年8月の営業日,営業時間のお知らせ",
           "keyword": "体験会",
-          "date": "7月8日",
-          "summary": "ホールドシェイプ体験ワークショップ開催 7月8日 夏休み小学生ボルダリング3日間体験会 7月7日 2026年7月の営業日,営業時間のお知らせ 6月30日",
-          "source_url": "https://www.bouldering-knot.com/"
+          "date": "7月29日",
+          "summary": "■ 開催概要 ・会場：Bouldering House Knot ・住所：〒451-0042 愛知県名古屋市西区那古野１丁目３５−１３ ・対象：小学生以上（低学年は保護者様の付き添いをお願いいたします） ・料金：3500円～ ・お支払い：当日現金もしくはクレジットカード決済 ■ 開催日 7月25日（土） ■ 開催時間（",
+          "source_url": "https://www.bouldering-knot.com/blog"
+        },
+        {
+          "title": "【名古屋・ボルダリング】向日葵課題を公開！国内外のゲストセッターによる全48課題",
+          "keyword": "初めての",
+          "date": "7月24日",
+          "summary": "塚田遼河さんも、今回がノットで初めてのルートセットです",
+          "source_url": "https://www.bouldering-knot.com/blog"
+        },
+        {
+          "title": "お知らせ-Blog-｜名古屋市円頓寺商店街のアクティビティ体験ならBouldering House KNOT(ボルダリングハウスノット)",
+          "keyword": "初めての",
+          "date": "7月24日",
+          "summary": "塚田遼河さんも、今回がノットで初めてのルートセットです",
+          "source_url": "https://www.bouldering-knot.com/blog"
         },
         {
           "title": "夏休み小学生ボルダリング3日間体験会",
           "keyword": "体験会",
           "date": "7月7日",
-          "summary": "夏休み小学生ボルダリング3日間体験会 7月7日",
-          "source_url": "https://www.bouldering-knot.com/"
-        },
-        {
-          "title": "お知らせ-Blog-｜名古屋市円頓寺商店街のアクティビティ体験ならBouldering House KNOT(ボルダリングハウスノット)",
-          "keyword": "体験会",
-          "date": null,
-          "summary": "夏休み小学生ボルダリング3日間体験会 今年の夏休みは、涼しい室内で頭と体をフルに使うボルダリングに挑戦してみませんか",
+          "summary": "夏休み小学生ボルダリング3日間体験会 夏休み小学生ボルダリング3日間体験会 今年の夏休みは、涼しい室内で頭と体をフルに使うボルダリングに挑戦してみませんか",
           "source_url": "https://www.bouldering-knot.com/blog"
         },
         {
-          "title": "【翡翠壁2026】全面ホールド替え完了！74本の新課題とビンゴイベント開催",
-          "keyword": "初めての",
-          "date": "5月31日",
-          "summary": "二段：2本 初段：4本 1級：8本 2級：10本 3級：10本 4級：10本 5級：10本 6級：10本 7級以下：10本 初心者の方が「初めての完登」を目指せる課題から、経験者が本気で打ち込める高難度課題まで、幅広い層に楽しんでいただける構成となっています　初めての方も、久しぶりの方も、常連の方も",
-          "source_url": "https://www.bouldering-knot.com/single-post/hisui-260531"
+          "title": "ホールドシェイプ体験ワークショップ開催",
+          "keyword": "体験会",
+          "date": null,
+          "summary": "ホールドシェイプ体験ワークショップ開催 夏休み小学生ボルダリング3日間体験会 CATEGORY｜カテゴリー 全ての記事 （526） 526件の記事",
+          "source_url": "https://www.bouldering-knot.com/single-post/202608calendar"
         }
       ],
-      "last_checked": "2026-07-30T22:07:39.133214+00:00",
+      "last_checked": "2026-07-31T21:59:24.663453+00:00",
       "error": null
     },
     {
@@ -68,7 +75,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-07-30T22:07:45.530217+00:00",
+      "last_checked": "2026-07-31T21:59:30.322900+00:00",
       "error": null
     },
     {
@@ -117,7 +124,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-07-30T22:07:48.824697+00:00",
+      "last_checked": "2026-07-31T21:59:33.476275+00:00",
       "error": null
     },
     {
@@ -130,7 +137,7 @@
       "station": "東海通駅",
       "status": "error",
       "snippets": [],
-      "last_checked": "2026-07-30T22:07:56.758103+00:00",
+      "last_checked": "2026-07-31T21:59:42.110994+00:00",
       "error": "403 Client Error: Forbidden for url: https://colorfulrock.com/"
     },
     {
@@ -141,46 +148,10 @@
       "instagram_primary": false,
       "note": null,
       "station": null,
-      "status": "found",
-      "snippets": [
-        {
-          "title": "[クオーレ公式]名古屋でボルダリング・クライミングジム",
-          "keyword": "初めての",
-          "date": null,
-          "summary": "[クオーレ公式]名古屋でボルダリング・クライミングジム 初めての方へ お子様のご利用 SIGN UP 初回利用登録はこちら FLEEK",
-          "source_url": "https://climbing-cuore.com/"
-        },
-        {
-          "title": "【イベント開催に伴う貸切営業のお",
-          "keyword": "初めての",
-          "date": null,
-          "summary": "【イベント開催に伴う貸切営業のお 初めての方へ お子様のご利用 FLEEK ご利用ガイド 個人情報保護方針",
-          "source_url": "https://climbing-cuore.com/"
-        },
-        {
-          "title": "新着情報 - 名古屋でボルダリングするなら クライミングジム クオーレ",
-          "keyword": "初めての",
-          "date": null,
-          "summary": "新着情報 - 名古屋でボルダリングするなら クライミングジム クオーレ 初めての方へ お子様のご利用 SIGN UP 初回利用登録はこちら FLEEK",
-          "source_url": "https://climbing-cuore.com/news"
-        },
-        {
-          "title": "初回利用登録はこちら",
-          "keyword": "初めての",
-          "date": null,
-          "summary": "初回利用登録はこちら 初めての方へ お子様のご利用 FLEEK ご利用ガイド 個人情報保護方針",
-          "source_url": "https://climbing-cuore.com/news"
-        },
-        {
-          "title": "7月 営業カレンダー - 名古屋でボルダリングするなら クライミングジム クオーレ",
-          "keyword": "初めての",
-          "date": null,
-          "summary": "7月 営業カレンダー - 名古屋でボルダリングするなら クライミングジム クオーレ 初めての方へ お子様のご利用 SIGN UP 初回利用登録はこちら FLEEK",
-          "source_url": "https://climbing-cuore.com/news/7%e6%9c%88%e3%80%80%e5%96%b6%e6%a5%ad%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-3/"
-        }
-      ],
-      "last_checked": "2026-07-30T22:08:02.562531+00:00",
-      "error": null
+      "status": "error",
+      "snippets": [],
+      "last_checked": "2026-07-31T21:59:44.095908+00:00",
+      "error": "HTTPSConnectionPool(host='climbing-cuore.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='climbing-cuore.com', port=443) at 0x7f3d4728d640>, 'Connection to climbing-cuore.com timed out. (connect timeout=15)'))"
     },
     {
       "id": "bolsta",
@@ -192,7 +163,7 @@
       "station": null,
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-07-30T22:08:24.569176+00:00",
+      "last_checked": "2026-07-31T22:00:00.820603+00:00",
       "error": null
     },
     {
@@ -205,7 +176,7 @@
       "station": "名古屋市地下鉄鶴舞線植田駅",
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-07-30T22:08:29.187387+00:00",
+      "last_checked": "2026-07-31T22:00:06.066568+00:00",
       "error": null
     },
     {
@@ -247,7 +218,7 @@
           "source_url": "https://climbing-gym-soleil2.com/"
         }
       ],
-      "last_checked": "2026-07-30T22:08:42.477696+00:00",
+      "last_checked": "2026-07-31T22:00:15.369022+00:00",
       "error": null
     }
   ]
