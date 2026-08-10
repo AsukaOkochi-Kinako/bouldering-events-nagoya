@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-09T21:25:58.816417+00:00",
+  "last_updated": "2026-08-10T21:35:58.852329+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -47,7 +47,7 @@
           "source_url": "https://www.bouldering-knot.com/single-post/202608calendar"
         }
       ],
-      "last_checked": "2026-08-09T21:25:01.982512+00:00",
+      "last_checked": "2026-08-10T21:35:03.314097+00:00",
       "error": null
     },
     {
@@ -75,7 +75,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-08-09T21:25:10.696510+00:00",
+      "last_checked": "2026-08-10T21:35:07.050114+00:00",
       "error": null
     },
     {
@@ -124,7 +124,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-08-09T21:25:14.013960+00:00",
+      "last_checked": "2026-08-10T21:35:10.453524+00:00",
       "error": null
     },
     {
@@ -137,7 +137,7 @@
       "station": "東海通駅",
       "status": "error",
       "snippets": [],
-      "last_checked": "2026-08-09T21:25:22.686952+00:00",
+      "last_checked": "2026-08-10T21:35:20.050047+00:00",
       "error": "403 Client Error: Forbidden for url: https://colorfulrock.com/"
     },
     {
@@ -186,7 +186,7 @@
           "source_url": "https://climbing-cuore.com/news/%e3%81%8a%e7%9b%86%e5%96%b6%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b-3/"
         }
       ],
-      "last_checked": "2026-08-09T21:25:24.532555+00:00",
+      "last_checked": "2026-08-10T21:35:22.036328+00:00",
       "error": null
     },
     {
@@ -199,7 +199,7 @@
       "station": null,
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-08-09T21:25:36.401734+00:00",
+      "last_checked": "2026-08-10T21:35:35.169560+00:00",
       "error": null
     },
     {
@@ -212,7 +212,7 @@
       "station": "名古屋市地下鉄鶴舞線植田駅",
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-08-09T21:25:41.663790+00:00",
+      "last_checked": "2026-08-10T21:35:40.655399+00:00",
       "error": null
     },
     {
@@ -254,7 +254,7 @@
           "source_url": "https://climbing-gym-soleil2.com/"
         }
       ],
-      "last_checked": "2026-08-09T21:25:51.123459+00:00",
+      "last_checked": "2026-08-10T21:35:50.033877+00:00",
       "error": null
     }
   ]
