@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-15T21:15:32.489709+00:00",
+  "last_updated": "2026-08-16T21:14:56.764430+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -47,7 +47,7 @@
           "source_url": "https://www.bouldering-knot.com/single-post/202608calendar"
         }
       ],
-      "last_checked": "2026-08-15T21:14:44.264567+00:00",
+      "last_checked": "2026-08-16T21:13:50.896545+00:00",
       "error": null
     },
     {
@@ -75,7 +75,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-08-15T21:14:48.298160+00:00",
+      "last_checked": "2026-08-16T21:13:54.980165+00:00",
       "error": null
     },
     {
@@ -124,7 +124,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-08-15T21:14:51.336861+00:00",
+      "last_checked": "2026-08-16T21:13:58.354048+00:00",
       "error": null
     },
     {
@@ -135,10 +135,46 @@
       "instagram_primary": false,
       "note": null,
       "station": "東海通駅",
-      "status": "error",
-      "snippets": [],
-      "last_checked": "2026-08-15T21:14:58.923431+00:00",
-      "error": "403 Client Error: Forbidden for url: https://colorfulrock.com/"
+      "status": "found",
+      "snippets": [
+        {
+          "title": "名古屋でボルダリングなら、カラフルロック。",
+          "keyword": "初めての",
+          "date": null,
+          "summary": "名古屋市港区 初心者から上級者まで 初めて 壁・設備 料金 お知らせ ブログ アクセス FAQ 料金を見る 体験予約 初めて 壁・設備 料金 お知らせ ブログ アクセス FAQ お問い合わせ 事前会員登録 初めての体験を予約する NAGOYA MINATO · BOULDERING GYM 名古屋で ボルダリングなら、",
+          "source_url": "https://colorfulrock.com/"
+        },
+        {
+          "title": "必要なものは、動きやすい服と靴下だけ。",
+          "keyword": "初めての",
+          "date": null,
+          "summary": "初めての流れを見る",
+          "source_url": "https://colorfulrock.com/"
+        },
+        {
+          "title": "初めての一歩から、登り込む一日まで。",
+          "keyword": "初めての",
+          "date": null,
+          "summary": "COLORFUL ROCK FACILITY GUIDE 初めての一歩から、登り込む一日まで　初めての体験を予約する 料金を確認する 経験者向け案内を見る カラフルロックには、角度の異なる8面のクライミングウォールがあります",
+          "source_url": "https://colorfulrock.com/facility-information"
+        },
+        {
+          "title": "トップページ",
+          "keyword": "はじめての",
+          "date": null,
+          "summary": "トップページ はじめての方へ GUEST PRICE ACCESS 壁の種類・設備一覧",
+          "source_url": "https://colorfulrock.com/category/colorfulrock"
+        },
+        {
+          "title": "🗓 2026年8月のイベント＆営業スケジュール",
+          "keyword": "体験会",
+          "date": "8月11日（火）",
+          "summary": "8月は 祝日営業 、 楽動整体 施術体験会 、 竹中翔クライミングキャンパス「タケトレ」 を予定しています　📢 8月の営業・イベントのお知らせ 日付 内容 8月11日（火） 祝日営業 10:00〜21:00 8月19日（水） 楽動整体 施術体験会 8月25日（火） 竹中翔クライミングキャンパス「タケトレ」 8月27日（",
+          "source_url": "https://colorfulrock.com/schedule"
+        }
+      ],
+      "last_checked": "2026-08-16T21:14:10.906812+00:00",
+      "error": null
     },
     {
       "id": "cuore",
@@ -148,46 +184,10 @@
       "instagram_primary": false,
       "note": null,
       "station": null,
-      "status": "found",
-      "snippets": [
-        {
-          "title": "[クオーレ公式]名古屋でボルダリング・クライミングジム",
-          "keyword": "初めての",
-          "date": null,
-          "summary": "[クオーレ公式]名古屋でボルダリング・クライミングジム 初めての方へ お子様のご利用 SIGN UP 初回利用登録はこちら FLEEK",
-          "source_url": "https://climbing-cuore.com/"
-        },
-        {
-          "title": "C壁1級  54番",
-          "keyword": "初めての",
-          "date": null,
-          "summary": "C壁1級 54番 初めての方へ お子様のご利用 FLEEK ご利用ガイド 個人情報保護方針",
-          "source_url": "https://climbing-cuore.com/"
-        },
-        {
-          "title": "新着情報 - 名古屋でボルダリングするなら クライミングジム クオーレ",
-          "keyword": "初めての",
-          "date": null,
-          "summary": "新着情報 - 名古屋でボルダリングするなら クライミングジム クオーレ 初めての方へ お子様のご利用 SIGN UP 初回利用登録はこちら FLEEK",
-          "source_url": "https://climbing-cuore.com/news"
-        },
-        {
-          "title": "初回利用登録はこちら",
-          "keyword": "初めての",
-          "date": null,
-          "summary": "初回利用登録はこちら 初めての方へ お子様のご利用 FLEEK ご利用ガイド 個人情報保護方針",
-          "source_url": "https://climbing-cuore.com/news"
-        },
-        {
-          "title": "お盆営業のお知らせ - 名古屋でボルダリングするなら クライミングジム クオーレ",
-          "keyword": "初めての",
-          "date": null,
-          "summary": "お盆営業のお知らせ - 名古屋でボルダリングするなら クライミングジム クオーレ 初めての方へ お子様のご利用 SIGN UP 初回利用登録はこちら FLEEK",
-          "source_url": "https://climbing-cuore.com/news/%e3%81%8a%e7%9b%86%e5%96%b6%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b-3/"
-        }
-      ],
-      "last_checked": "2026-08-15T21:15:00.618776+00:00",
-      "error": null
+      "status": "error",
+      "snippets": [],
+      "last_checked": "2026-08-16T21:14:17.644524+00:00",
+      "error": "HTTPSConnectionPool(host='climbing-cuore.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='climbing-cuore.com', port=443) at 0x7f8716def020>, 'Connection to climbing-cuore.com timed out. (connect timeout=15)'))"
     },
     {
       "id": "bolsta",
@@ -199,7 +199,7 @@
       "station": null,
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-08-15T21:15:12.960250+00:00",
+      "last_checked": "2026-08-16T21:14:34.673343+00:00",
       "error": null
     },
     {
@@ -212,7 +212,7 @@
       "station": "名古屋市地下鉄鶴舞線植田駅",
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-08-15T21:15:17.793556+00:00",
+      "last_checked": "2026-08-16T21:14:40.030645+00:00",
       "error": null
     },
     {
@@ -254,7 +254,7 @@
           "source_url": "https://climbing-gym-soleil2.com/"
         }
       ],
-      "last_checked": "2026-08-15T21:15:25.754190+00:00",
+      "last_checked": "2026-08-16T21:14:49.544413+00:00",
       "error": null
     }
   ]
