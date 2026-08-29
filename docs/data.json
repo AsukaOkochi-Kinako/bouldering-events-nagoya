@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-28T05:04:13.628664+00:00",
+  "last_updated": "2026-08-29T03:01:12.539137+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -47,7 +47,7 @@
           "source_url": "https://www.bouldering-knot.com/single-post/202608calendar"
         }
       ],
-      "last_checked": "2026-08-28T05:02:58.065382+00:00",
+      "last_checked": "2026-08-29T03:00:10.949712+00:00",
       "error": null
     },
     {
@@ -75,7 +75,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-08-28T05:03:01.697389+00:00",
+      "last_checked": "2026-08-29T03:00:15.012963+00:00",
       "error": null
     },
     {
@@ -124,7 +124,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-08-28T05:03:05.379044+00:00",
+      "last_checked": "2026-08-29T03:00:18.527645+00:00",
       "error": null
     },
     {
@@ -135,10 +135,46 @@
       "instagram_primary": false,
       "note": null,
       "station": "東海通駅",
-      "status": "error",
-      "snippets": [],
-      "last_checked": "2026-08-28T05:03:14.334356+00:00",
-      "error": "HTTPSConnectionPool(host='colorfulrock.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='colorfulrock.com', port=443) at 0x7fdd1c826bd0>, 'Connection to colorfulrock.com timed out. (connect timeout=15)'))"
+      "status": "found",
+      "snippets": [
+        {
+          "title": "名古屋でボルダリングなら、カラフルロック。",
+          "keyword": "初めての",
+          "date": null,
+          "summary": "名古屋市港区 初心者から上級者まで 初めて 壁・設備 料金 お知らせ ブログ アクセス FAQ 料金を見る 体験予約 初めて 壁・設備 料金 お知らせ ブログ アクセス FAQ お問い合わせ 事前会員登録 初めての体験を予約する NAGOYA MINATO · BOULDERING GYM 名古屋で ボルダリングなら、",
+          "source_url": "https://colorfulrock.com/"
+        },
+        {
+          "title": "必要なものは、動きやすい服と靴下だけ。",
+          "keyword": "初めての",
+          "date": null,
+          "summary": "初めての流れを見る",
+          "source_url": "https://colorfulrock.com/"
+        },
+        {
+          "title": "初めての一歩から、登り込む一日まで。",
+          "keyword": "初めての",
+          "date": null,
+          "summary": "COLORFUL ROCK FACILITY GUIDE 初めての一歩から、登り込む一日まで　初めての体験を予約する 料金を確認する 経験者向け案内を見る カラフルロックには、角度の異なる8面のクライミングウォールがあります",
+          "source_url": "https://colorfulrock.com/facility-information"
+        },
+        {
+          "title": "トップページ",
+          "keyword": "はじめての",
+          "date": null,
+          "summary": "トップページ はじめての方へ GUEST PRICE ACCESS 壁の種類・設備一覧",
+          "source_url": "https://colorfulrock.com/category/colorfulrock"
+        },
+        {
+          "title": "🗓 2026年9月のイベント＆営業スケジュール",
+          "keyword": "体験会",
+          "date": "8月28日（金）",
+          "summary": "9月は ホールド替えに伴う短縮営業・臨時休業 、 楽動整体 施術体験会 、 シルバーウィークの祝日営業 、 竹中翔クライミングキャンパス「タケトレ」 を予定しています　▶ 営業時間変更のお知らせ（詳細）はこちら 📢 9月の営業・イベントのお知らせ 日付 内容 9月1日（火） 営業時間変更 16:00〜22:30 9月2",
+          "source_url": "https://colorfulrock.com/schedule"
+        }
+      ],
+      "last_checked": "2026-08-29T03:00:27.819469+00:00",
+      "error": null
     },
     {
       "id": "cuore",
@@ -186,7 +222,7 @@
           "source_url": "https://climbing-cuore.com/news/%e3%81%8a%e7%9b%86%e5%96%b6%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b-3/"
         }
       ],
-      "last_checked": "2026-08-28T05:03:30.787529+00:00",
+      "last_checked": "2026-08-29T03:00:35.108110+00:00",
       "error": null
     },
     {
@@ -199,7 +235,7 @@
       "station": null,
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-08-28T05:03:44.417244+00:00",
+      "last_checked": "2026-08-29T03:00:49.771864+00:00",
       "error": null
     },
     {
@@ -209,11 +245,11 @@
       "instagram_handle": null,
       "instagram_primary": false,
       "note": null,
-      "station": null,
-      "status": "error",
+      "station": "名古屋市地下鉄鶴舞線植田駅",
+      "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-08-28T05:03:49.612186+00:00",
-      "error": "HTTPSConnectionPool(host='tenova-climbing.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='tenova-climbing.com', port=443) at 0x7fdd1d20b0b0>, 'Connection to tenova-climbing.com timed out. (connect timeout=15)'))"
+      "last_checked": "2026-08-29T03:00:55.245882+00:00",
+      "error": null
     },
     {
       "id": "soleil",
@@ -254,7 +290,7 @@
           "source_url": "https://climbing-gym-soleil2.com/"
         }
       ],
-      "last_checked": "2026-08-28T05:04:06.021731+00:00",
+      "last_checked": "2026-08-29T03:01:04.995841+00:00",
       "error": null
     }
   ]
