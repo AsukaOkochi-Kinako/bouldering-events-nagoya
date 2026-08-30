@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-29T22:58:06.623082+00:00",
+  "last_updated": "2026-08-30T23:04:22.257110+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -12,7 +12,7 @@
       "status": "found",
       "snippets": [
         {
-          "title": "2026年9月の営業日,営業時間のお知らせ",
+          "title": "【9/26開催】CHIBATORE WORKSHOP｜胸を立てて、背中を使って登れるクライマーを目指そう！",
           "keyword": "体験会",
           "date": "7月29日",
           "summary": "■ 開催概要 ・会場：Bouldering House Knot ・住所：〒451-0042 愛知県名古屋市西区那古野１丁目３５−１３ ・対象：小学生以上（低学年は保護者様の付き添いをお願いいたします） ・料金：3500円～ ・お支払い：当日現金もしくはクレジットカード決済 ■ 開催日 7月25日（土） ■ 開催時間（",
@@ -40,7 +40,7 @@
           "source_url": "https://www.bouldering-knot.com/blog"
         }
       ],
-      "last_checked": "2026-08-29T22:57:10.178818+00:00",
+      "last_checked": "2026-08-30T23:03:21.657608+00:00",
       "error": null
     },
     {
@@ -68,7 +68,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-08-29T22:57:15.933480+00:00",
+      "last_checked": "2026-08-30T23:03:30.906381+00:00",
       "error": null
     },
     {
@@ -117,7 +117,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-08-29T22:57:19.103276+00:00",
+      "last_checked": "2026-08-30T23:03:34.147024+00:00",
       "error": null
     },
     {
@@ -166,7 +166,7 @@
           "source_url": "https://colorfulrock.com/schedule"
         }
       ],
-      "last_checked": "2026-08-29T22:57:27.091977+00:00",
+      "last_checked": "2026-08-30T23:03:43.260817+00:00",
       "error": null
     },
     {
@@ -215,7 +215,7 @@
           "source_url": "https://climbing-cuore.com/news/%e3%81%8a%e7%9b%86%e5%96%b6%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b-3/"
         }
       ],
-      "last_checked": "2026-08-29T22:57:34.294796+00:00",
+      "last_checked": "2026-08-30T23:03:50.142191+00:00",
       "error": null
     },
     {
@@ -228,7 +228,7 @@
       "station": null,
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-08-29T22:57:47.665804+00:00",
+      "last_checked": "2026-08-30T23:04:02.903019+00:00",
       "error": null
     },
     {
@@ -241,7 +241,7 @@
       "station": "名古屋市地下鉄鶴舞線植田駅",
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-08-29T22:57:52.113189+00:00",
+      "last_checked": "2026-08-30T23:04:07.682947+00:00",
       "error": null
     },
     {
@@ -283,7 +283,7 @@
           "source_url": "https://climbing-gym-soleil2.com/"
         }
       ],
-      "last_checked": "2026-08-29T22:58:00.171632+00:00",
+      "last_checked": "2026-08-30T23:04:15.568244+00:00",
       "error": null
     }
   ]
