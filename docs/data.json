@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T23:15:18.204162+00:00",
+  "last_updated": "2026-09-08T23:07:16.996908+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -15,7 +15,7 @@
           "title": "小さな手でつかんだ大きな自信！夏休み3日間ボルダリング体験会レポート",
           "keyword": "体験会",
           "date": "2026年9月2日",
-          "summary": "夏休み3日間ボルダリング体験会レポート 4 時間前 ボルダリングをもっと快適に　骨盤調整体験会を開催します【2026年9月2日】 2 日前 【名古屋・円頓寺】新セット「秋明菊課題」解禁",
+          "summary": "夏休み3日間ボルダリング体験会レポート 3 時間前 ボルダリングをもっと快適に　骨盤調整体験会を開催します【2026年9月2日】 2 日前 【名古屋・円頓寺】新セット「秋明菊課題」解禁",
           "source_url": "https://www.bouldering-knot.com/"
         },
         {
@@ -33,7 +33,7 @@
           "source_url": "https://www.bouldering-knot.com/blog"
         }
       ],
-      "last_checked": "2026-09-07T23:14:13.712334+00:00",
+      "last_checked": "2026-09-08T23:06:15.097849+00:00",
       "error": null
     },
     {
@@ -61,7 +61,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-09-07T23:14:17.858122+00:00",
+      "last_checked": "2026-09-08T23:06:17.747971+00:00",
       "error": null
     },
     {
@@ -110,7 +110,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-09-07T23:14:21.242649+00:00",
+      "last_checked": "2026-09-08T23:06:21.385514+00:00",
       "error": null
     },
     {
@@ -159,7 +159,7 @@
           "source_url": "https://colorfulrock.com/schedule"
         }
       ],
-      "last_checked": "2026-09-07T23:14:31.363983+00:00",
+      "last_checked": "2026-09-08T23:06:31.520226+00:00",
       "error": null
     },
     {
@@ -208,7 +208,7 @@
           "source_url": "https://climbing-cuore.com/news/9%e6%9c%88%e3%80%80%e5%96%b6%e6%a5%ad%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-2/"
         }
       ],
-      "last_checked": "2026-09-07T23:14:42.148954+00:00",
+      "last_checked": "2026-09-08T23:06:38.943794+00:00",
       "error": null
     },
     {
@@ -221,7 +221,7 @@
       "station": null,
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-09-07T23:14:56.163677+00:00",
+      "last_checked": "2026-09-08T23:06:52.060898+00:00",
       "error": null
     },
     {
@@ -234,7 +234,7 @@
       "station": "名古屋市地下鉄鶴舞線植田駅",
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-09-07T23:15:01.398815+00:00",
+      "last_checked": "2026-09-08T23:06:57.329587+00:00",
       "error": null
     },
     {
@@ -276,7 +276,7 @@
           "source_url": "https://climbing-gym-soleil2.com/"
         }
       ],
-      "last_checked": "2026-09-07T23:15:11.180610+00:00",
+      "last_checked": "2026-09-08T23:07:09.267648+00:00",
       "error": null
     }
   ]
