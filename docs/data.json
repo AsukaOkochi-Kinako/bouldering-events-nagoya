@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-13T02:22:22.257610+00:00",
+  "last_updated": "2026-10-14T00:04:41.201436+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -35,7 +35,7 @@
         {
           "title": "CHIBATORE WORKSHOP開催レポート｜「力」ではなく「身体の使い方」を学ぶ2時間",
           "keyword": "体験会",
-          "date": "9月18日",
+          "date": "10月1日",
           "summary": "骨盤調整体験会を開催します【2026年9月2日】 Atsushi 9月2日 【9/26開催】CHIBATORE WORKSHOP｜胸を立てて、背中を使って登れるクライマーを目指そう",
           "source_url": "https://www.bouldering-knot.com/blog"
         },
@@ -47,7 +47,7 @@
           "source_url": "https://www.bouldering-knot.com/blog"
         }
       ],
-      "last_checked": "2026-10-13T02:21:22.251735+00:00",
+      "last_checked": "2026-10-14T00:03:37.989462+00:00",
       "error": null
     },
     {
@@ -75,7 +75,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-10-13T02:21:29.134224+00:00",
+      "last_checked": "2026-10-14T00:03:44.755584+00:00",
       "error": null
     },
     {
@@ -124,7 +124,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-10-13T02:21:32.172058+00:00",
+      "last_checked": "2026-10-14T00:03:48.143936+00:00",
       "error": null
     },
     {
@@ -140,7 +140,7 @@
         {
           "title": "名古屋でボルダリングなら、カラフルロック。",
           "keyword": "初めての",
-          "date": null,
+          "date": "2026年7月14日",
           "summary": "名古屋市港区 初心者から上級者まで 初めて キッズ 壁・設備 料金 お知らせ ブログ アクセス FAQ EN KO 中文 料金を見る 体験予約 初めて 壁・設備 料金 お知らせ ブログ アクセス FAQ お問い合わせ 事前会員登録 初めての体験を予約する English 한국어 中文 NAGOYA MINATO · B",
           "source_url": "https://colorfulrock.com/"
         },
@@ -152,10 +152,10 @@
           "source_url": "https://colorfulrock.com/"
         },
         {
-          "title": "初めての一歩から、登り込む一日まで。",
+          "title": "名古屋の本格ボルダリングジム｜壁の種類・設備・中上級者向け課題充実",
           "keyword": "初めての",
           "date": null,
-          "summary": "COLORFUL ROCK FACILITY GUIDE 初めての一歩から、登り込む一日まで　初めての体験を予約する 料金を確認する 経験者向け案内を見る カラフルロックには、角度の異なる8面のクライミングウォールがあります",
+          "summary": "名古屋市港区 初心者から上級者まで 初めて キッズ 壁・設備 料金 お知らせ ブログ アクセス FAQ EN KO 中文 料金を見る 体験予約 初めて 壁・設備 料金 お知らせ ブログ アクセス FAQ お問い合わせ 事前会員登録 初めての体験を予約する English 한국어 中文 トップ / 壁と設備 名古屋の本格",
           "source_url": "https://colorfulrock.com/facility-information"
         },
         {
@@ -173,7 +173,7 @@
           "source_url": "https://colorfulrock.com/schedule"
         }
       ],
-      "last_checked": "2026-10-13T02:21:40.233605+00:00",
+      "last_checked": "2026-10-14T00:03:56.626083+00:00",
       "error": null
     },
     {
@@ -222,7 +222,7 @@
           "source_url": "https://climbing-cuore.com/news/10%e6%9c%88%e3%80%80%e5%96%b6%e6%a5%ad%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-3/"
         }
       ],
-      "last_checked": "2026-10-13T02:21:48.435394+00:00",
+      "last_checked": "2026-10-14T00:04:04.852967+00:00",
       "error": null
     },
     {
@@ -235,7 +235,7 @@
       "station": null,
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-10-13T02:22:01.693882+00:00",
+      "last_checked": "2026-10-14T00:04:18.977905+00:00",
       "error": null
     },
     {
@@ -248,7 +248,7 @@
       "station": "名古屋市地下鉄鶴舞線植田駅",
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-10-13T02:22:06.749978+00:00",
+      "last_checked": "2026-10-14T00:04:24.457512+00:00",
       "error": null
     },
     {
@@ -290,7 +290,7 @@
           "source_url": "https://climbing-gym-soleil2.com/"
         }
       ],
-      "last_checked": "2026-10-13T02:22:15.434139+00:00",
+      "last_checked": "2026-10-14T00:04:33.868463+00:00",
       "error": null
     }
   ]
