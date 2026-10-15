@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T23:36:30.972123+00:00",
+  "last_updated": "2026-10-15T23:30:57.991024+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -47,7 +47,7 @@
           "source_url": "https://www.bouldering-knot.com/blog"
         }
       ],
-      "last_checked": "2026-10-14T23:35:28.713802+00:00",
+      "last_checked": "2026-10-15T23:29:40.801393+00:00",
       "error": null
     },
     {
@@ -75,7 +75,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-10-14T23:35:37.312533+00:00",
+      "last_checked": "2026-10-15T23:29:49.876337+00:00",
       "error": null
     },
     {
@@ -124,7 +124,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-10-14T23:35:40.545452+00:00",
+      "last_checked": "2026-10-15T23:29:53.401599+00:00",
       "error": null
     },
     {
@@ -173,7 +173,7 @@
           "source_url": "https://colorfulrock.com/schedule"
         }
       ],
-      "last_checked": "2026-10-14T23:35:48.959796+00:00",
+      "last_checked": "2026-10-15T23:30:03.466643+00:00",
       "error": null
     },
     {
@@ -222,7 +222,7 @@
           "source_url": "https://climbing-cuore.com/news/10%e6%9c%88%e3%80%80%e5%96%b6%e6%a5%ad%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-3/"
         }
       ],
-      "last_checked": "2026-10-14T23:35:56.367182+00:00",
+      "last_checked": "2026-10-15T23:30:10.950236+00:00",
       "error": null
     },
     {
@@ -235,7 +235,7 @@
       "station": null,
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-10-14T23:36:09.494054+00:00",
+      "last_checked": "2026-10-15T23:30:27.162744+00:00",
       "error": null
     },
     {
@@ -248,7 +248,7 @@
       "station": "名古屋市地下鉄鶴舞線植田駅",
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-10-14T23:36:14.630982+00:00",
+      "last_checked": "2026-10-15T23:30:32.245541+00:00",
       "error": null
     },
     {
@@ -258,40 +258,11 @@
       "instagram_handle": null,
       "instagram_primary": false,
       "note": null,
-      "station": "地下鉄東山線の藤が丘駅",
-      "status": "found",
-      "snippets": [
-        {
-          "title": "愛知県長久手市熊田313 クライミングジムソレイユ",
-          "keyword": "はじめての",
-          "date": null,
-          "summary": "愛知県長久手市熊田313 クライミングジムソレイユ はじめての方へ スクール・サークル プライベートレッスン キッズスクール クライミングジムソレイユへ",
-          "source_url": "https://climbing-gym-soleil2.com/"
-        },
-        {
-          "title": "初心者も気軽に",
-          "keyword": "クライミング体験",
-          "date": null,
-          "summary": "初心者も気軽に クライミング体験 「多くの方にボルダリングに挑戦してほしい」という思いから2012年に名古屋でオープンいたしました",
-          "source_url": "https://climbing-gym-soleil2.com/"
-        },
-        {
-          "title": "皆様のご来店をお待ちしております。",
-          "keyword": "はじめての",
-          "date": null,
-          "summary": "はじめての方へ 子供もたくさん楽しめる 3歳以上のお子様であればどなたでも利用可能です",
-          "source_url": "https://climbing-gym-soleil2.com/"
-        },
-        {
-          "title": "お問い合わせはこちら",
-          "keyword": "はじめての",
-          "date": null,
-          "summary": "お問い合わせはこちら はじめての方へ スタッフ紹介 プライベートレッスン キッズスクール 当ジムの特徴",
-          "source_url": "https://climbing-gym-soleil2.com/"
-        }
-      ],
-      "last_checked": "2026-10-14T23:36:23.978360+00:00",
-      "error": null
+      "station": null,
+      "status": "error",
+      "snippets": [],
+      "last_checked": "2026-10-15T23:30:41.570885+00:00",
+      "error": "HTTPSConnectionPool(host='climbing-gym-soleil2.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='climbing-gym-soleil2.com', port=443) at 0x7fa82b2caa50>, 'Connection to climbing-gym-soleil2.com timed out. (connect timeout=15)'))"
     }
   ]
 }
