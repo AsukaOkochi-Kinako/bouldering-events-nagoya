@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T23:43:15.278977+00:00",
+  "last_updated": "2026-10-24T22:50:04.042544+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -47,7 +47,7 @@
           "source_url": "https://www.bouldering-knot.com/single-post/lobster-climbing-technica-2026aw-fitting-order-開催のお知らせ"
         }
       ],
-      "last_checked": "2026-10-23T23:42:12.418020+00:00",
+      "last_checked": "2026-10-24T22:48:59.434960+00:00",
       "error": null
     },
     {
@@ -75,7 +75,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-10-23T23:42:16.242683+00:00",
+      "last_checked": "2026-10-24T22:49:03.049954+00:00",
       "error": null
     },
     {
@@ -124,7 +124,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-10-23T23:42:19.698195+00:00",
+      "last_checked": "2026-10-24T22:49:06.339202+00:00",
       "error": null
     },
     {
@@ -173,7 +173,7 @@
           "source_url": "https://colorfulrock.com/schedule"
         }
       ],
-      "last_checked": "2026-10-23T23:42:28.397556+00:00",
+      "last_checked": "2026-10-24T22:49:14.870484+00:00",
       "error": null
     },
     {
@@ -222,7 +222,7 @@
           "source_url": "https://climbing-cuore.com/news/10%e6%9c%88%e3%80%80%e5%96%b6%e6%a5%ad%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-3/"
         }
       ],
-      "last_checked": "2026-10-23T23:42:35.361215+00:00",
+      "last_checked": "2026-10-24T22:49:24.934595+00:00",
       "error": null
     },
     {
@@ -235,7 +235,7 @@
       "station": null,
       "status": "error",
       "snippets": [],
-      "last_checked": "2026-10-23T23:42:48.051860+00:00",
+      "last_checked": "2026-10-24T22:49:37.275799+00:00",
       "error": "503 Server Error: Service Unavailable for url: https://bolsta.storeinfo.jp/"
     },
     {
@@ -248,7 +248,7 @@
       "station": "名古屋市地下鉄鶴舞線植田駅",
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-10-23T23:42:49.816542+00:00",
+      "last_checked": "2026-10-24T22:49:38.989215+00:00",
       "error": null
     },
     {
@@ -261,8 +261,8 @@
       "station": null,
       "status": "error",
       "snippets": [],
-      "last_checked": "2026-10-23T23:42:58.886319+00:00",
-      "error": "HTTPSConnectionPool(host='climbing-gym-soleil2.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='climbing-gym-soleil2.com', port=443) at 0x7f2cbb62b9e0>, 'Connection to climbing-gym-soleil2.com timed out. (connect timeout=15)'))"
+      "last_checked": "2026-10-24T22:49:47.640002+00:00",
+      "error": "HTTPSConnectionPool(host='climbing-gym-soleil2.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='climbing-gym-soleil2.com', port=443) at 0x7f59501f21e0>, 'Connection to climbing-gym-soleil2.com timed out. (connect timeout=15)'))"
     }
   ]
 }
