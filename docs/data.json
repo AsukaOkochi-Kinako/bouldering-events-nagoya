@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-30T00:33:35.706192+00:00",
+  "last_updated": "2026-10-31T00:19:11.223174+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -15,7 +15,7 @@
           "title": "【2026年11月】営業カレンダーとイベントのお知らせ",
           "keyword": "試し履き",
           "date": "10月17日",
-          "summary": "【2026年11月】営業カレンダーとイベントのお知らせ 8 時間前 【名古屋】LA SPORTIVA（スポルティバ）クライミングシューズ試し履き会開催",
+          "summary": "【2026年11月】営業カレンダーとイベントのお知らせ 2 日前 【名古屋】LA SPORTIVA（スポルティバ）クライミングシューズ試し履き会開催",
           "source_url": "https://www.bouldering-knot.com/"
         },
         {
@@ -47,7 +47,7 @@
           "source_url": "https://www.bouldering-knot.com/blog"
         }
       ],
-      "last_checked": "2026-10-30T00:32:25.505703+00:00",
+      "last_checked": "2026-10-31T00:18:07.347213+00:00",
       "error": null
     },
     {
@@ -75,7 +75,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-10-30T00:32:34.711800+00:00",
+      "last_checked": "2026-10-31T00:18:13.931972+00:00",
       "error": null
     },
     {
@@ -124,7 +124,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-10-30T00:32:37.943039+00:00",
+      "last_checked": "2026-10-31T00:18:16.897715+00:00",
       "error": null
     },
     {
@@ -173,7 +173,7 @@
           "source_url": "https://colorfulrock.com/schedule"
         }
       ],
-      "last_checked": "2026-10-30T00:32:46.558974+00:00",
+      "last_checked": "2026-10-31T00:18:25.544396+00:00",
       "error": null
     },
     {
@@ -222,7 +222,7 @@
           "source_url": "https://climbing-cuore.com/news/10%e6%9c%88%e3%80%80%e5%96%b6%e6%a5%ad%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-3/"
         }
       ],
-      "last_checked": "2026-10-30T00:32:54.367250+00:00",
+      "last_checked": "2026-10-31T00:18:32.267636+00:00",
       "error": null
     },
     {
@@ -235,7 +235,7 @@
       "station": null,
       "status": "error",
       "snippets": [],
-      "last_checked": "2026-10-30T00:33:08.720921+00:00",
+      "last_checked": "2026-10-31T00:18:44.515403+00:00",
       "error": "503 Server Error: Service Temporarily Unavailable for url: https://bolsta.storeinfo.jp/"
     },
     {
@@ -248,7 +248,7 @@
       "station": "名古屋市地下鉄鶴舞線植田駅",
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-10-30T00:33:10.519865+00:00",
+      "last_checked": "2026-10-31T00:18:46.164093+00:00",
       "error": null
     },
     {
@@ -261,8 +261,8 @@
       "station": null,
       "status": "error",
       "snippets": [],
-      "last_checked": "2026-10-30T00:33:19.321429+00:00",
-      "error": "HTTPSConnectionPool(host='climbing-gym-soleil2.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='climbing-gym-soleil2.com', port=443) at 0x7ff32b1a83e0>, 'Connection to climbing-gym-soleil2.com timed out. (connect timeout=15)'))"
+      "last_checked": "2026-10-31T00:18:54.843587+00:00",
+      "error": "HTTPSConnectionPool(host='climbing-gym-soleil2.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='climbing-gym-soleil2.com', port=443) at 0x7fb7835b7a40>, 'Connection to climbing-gym-soleil2.com timed out. (connect timeout=15)'))"
     }
   ]
 }
