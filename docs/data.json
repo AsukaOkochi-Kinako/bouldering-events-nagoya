@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-05T01:15:25.029328+00:00",
+  "last_updated": "2026-11-06T01:19:36.623961+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -15,7 +15,7 @@
           "title": "【お知らせ】KNOTがふるさと納税の返礼品になりました！",
           "keyword": "試し履き",
           "date": "10月17日",
-          "summary": "32 分前 【2026年11月】営業カレンダーとイベントのお知らせ 4 日前 【名古屋】LA SPORTIVA（スポルティバ）クライミングシューズ試し履き会開催",
+          "summary": "2 時間前 【2026年11月】営業カレンダーとイベントのお知らせ 4 日前 【名古屋】LA SPORTIVA（スポルティバ）クライミングシューズ試し履き会開催",
           "source_url": "https://www.bouldering-knot.com/"
         },
         {
@@ -47,7 +47,7 @@
           "source_url": "https://www.bouldering-knot.com/single-post/hurusatoknot"
         }
       ],
-      "last_checked": "2026-11-05T01:14:15.943671+00:00",
+      "last_checked": "2026-11-06T01:18:29.236785+00:00",
       "error": null
     },
     {
@@ -75,7 +75,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-11-05T01:14:24.095239+00:00",
+      "last_checked": "2026-11-06T01:18:34.845765+00:00",
       "error": null
     },
     {
@@ -124,7 +124,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-11-05T01:14:27.169472+00:00",
+      "last_checked": "2026-11-06T01:18:38.033600+00:00",
       "error": null
     },
     {
@@ -173,7 +173,7 @@
           "source_url": "https://colorfulrock.com/schedule"
         }
       ],
-      "last_checked": "2026-11-05T01:14:34.910692+00:00",
+      "last_checked": "2026-11-06T01:18:46.416200+00:00",
       "error": null
     },
     {
@@ -215,14 +215,14 @@
           "source_url": "https://climbing-cuore.com/news"
         },
         {
-          "title": "10月 営業カレンダー - 名古屋でボルダリングするなら クライミングジム クオーレ",
+          "title": "11月 営業カレンダー - 名古屋でボルダリングするなら クライミングジム クオーレ",
           "keyword": "初めての",
           "date": null,
-          "summary": "10月 営業カレンダー - 名古屋でボルダリングするなら クライミングジム クオーレ 初めての方へ お子様のご利用 SIGN UP 初回利用登録はこちら FLEEK",
-          "source_url": "https://climbing-cuore.com/news/10%e6%9c%88%e3%80%80%e5%96%b6%e6%a5%ad%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-3/"
+          "summary": "11月 営業カレンダー - 名古屋でボルダリングするなら クライミングジム クオーレ 初めての方へ お子様のご利用 SIGN UP 初回利用登録はこちら FLEEK",
+          "source_url": "https://climbing-cuore.com/news/11%e6%9c%88%e3%80%80%e5%96%b6%e6%a5%ad%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-3/"
         }
       ],
-      "last_checked": "2026-11-05T01:14:42.150881+00:00",
+      "last_checked": "2026-11-06T01:18:53.236816+00:00",
       "error": null
     },
     {
@@ -235,7 +235,7 @@
       "station": null,
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-11-05T01:14:55.073791+00:00",
+      "last_checked": "2026-11-06T01:19:06.605665+00:00",
       "error": null
     },
     {
@@ -248,7 +248,7 @@
       "station": "名古屋市地下鉄鶴舞線植田駅",
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-11-05T01:14:59.818533+00:00",
+      "last_checked": "2026-11-06T01:19:11.320017+00:00",
       "error": null
     },
     {
@@ -261,8 +261,8 @@
       "station": null,
       "status": "error",
       "snippets": [],
-      "last_checked": "2026-11-05T01:15:08.616241+00:00",
-      "error": "HTTPSConnectionPool(host='climbing-gym-soleil2.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='climbing-gym-soleil2.com', port=443) at 0x7f0baf8a8da0>, 'Connection to climbing-gym-soleil2.com timed out. (connect timeout=15)'))"
+      "last_checked": "2026-11-06T01:19:20.209093+00:00",
+      "error": "HTTPSConnectionPool(host='climbing-gym-soleil2.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='climbing-gym-soleil2.com', port=443) at 0x7f76697a1f40>, 'Connection to climbing-gym-soleil2.com timed out. (connect timeout=15)'))"
     }
   ]
 }
