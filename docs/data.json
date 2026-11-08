@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07T00:34:53.268718+00:00",
+  "last_updated": "2026-11-08T00:09:08.773342+00:00",
   "gyms": [
     {
       "id": "knot",
@@ -15,7 +15,7 @@
           "title": "【全100課題】秋の「柿狩り課題」26本公開！｜名古屋・ボルダリングハウスノット",
           "keyword": "試し履き",
           "date": "10月17日",
-          "summary": "｜名古屋・ボルダリングハウスノット 3 時間前 【名古屋】LA SPORTIVA（スポルティバ）クライミングシューズ試し履き会開催",
+          "summary": "｜名古屋・ボルダリングハウスノット 47 分前 【名古屋】LA SPORTIVA（スポルティバ）クライミングシューズ試し履き会開催",
           "source_url": "https://www.bouldering-knot.com/"
         },
         {
@@ -24,13 +24,6 @@
           "date": "10月17日",
           "summary": "【名古屋】LA SPORTIVA（スポルティバ）クライミングシューズ試し履き会開催",
           "source_url": "https://www.bouldering-knot.com/"
-        },
-        {
-          "title": "【お知らせ】KNOTがふるさと納税の返礼品になりました！",
-          "keyword": "試し履き",
-          "date": "11月6日（金）",
-          "summary": "営業時間変更・休業日のお知らせ 11月3日（火・祝）：【祝日営業】10:00 - 22:00 11月4日（水）：【短縮営業】14:00 - 21:00 11月5日（木）：【臨時休業】 11 6 日前 【名古屋】LA SPORTIVA（スポルティバ）クライミングシューズ試し履き会開催　人気4モデルを履き比べ 名古屋市西区",
-          "source_url": "https://www.bouldering-knot.com/blog"
         },
         {
           "title": "お知らせ・ブログ｜ボルダリングハウスノット",
@@ -45,9 +38,16 @@
           "date": "2026年9月2日",
           "summary": "骨盤調整体験会を開催します【2026年9月2日】 Atsushi 9月2日",
           "source_url": "https://www.bouldering-knot.com/blog"
+        },
+        {
+          "title": "皆さんのご来店を、心よりお待ちしています！",
+          "keyword": "試し履き",
+          "date": null,
+          "summary": "すべて表示 【名古屋】LA SPORTIVA（スポルティバ）クライミングシューズ試し履き会開催",
+          "source_url": "https://www.bouldering-knot.com/single-post/hurusatoknot"
         }
       ],
-      "last_checked": "2026-11-07T00:33:45.740691+00:00",
+      "last_checked": "2026-11-08T00:08:06.552733+00:00",
       "error": null
     },
     {
@@ -75,7 +75,7 @@
           "source_url": "https://pinna2.com/"
         }
       ],
-      "last_checked": "2026-11-07T00:33:51.060176+00:00",
+      "last_checked": "2026-11-08T00:08:11.421608+00:00",
       "error": null
     },
     {
@@ -124,7 +124,7 @@
           "source_url": "https://www.d-b-c.jp/top/sengen-cho/"
         }
       ],
-      "last_checked": "2026-11-07T00:33:54.490498+00:00",
+      "last_checked": "2026-11-08T00:08:14.365545+00:00",
       "error": null
     },
     {
@@ -173,7 +173,7 @@
           "source_url": "https://colorfulrock.com/schedule"
         }
       ],
-      "last_checked": "2026-11-07T00:34:02.425553+00:00",
+      "last_checked": "2026-11-08T00:08:21.715807+00:00",
       "error": null
     },
     {
@@ -222,7 +222,7 @@
           "source_url": "https://climbing-cuore.com/news/11%e6%9c%88%e3%80%80%e5%96%b6%e6%a5%ad%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-3/"
         }
       ],
-      "last_checked": "2026-11-07T00:34:09.081718+00:00",
+      "last_checked": "2026-11-08T00:08:28.160188+00:00",
       "error": null
     },
     {
@@ -235,7 +235,7 @@
       "station": null,
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-11-07T00:34:21.599954+00:00",
+      "last_checked": "2026-11-08T00:08:39.635970+00:00",
       "error": null
     },
     {
@@ -248,7 +248,7 @@
       "station": "名古屋市地下鉄鶴舞線植田駅",
       "status": "not_found",
       "snippets": [],
-      "last_checked": "2026-11-07T00:34:28.213348+00:00",
+      "last_checked": "2026-11-08T00:08:44.441989+00:00",
       "error": null
     },
     {
@@ -261,8 +261,8 @@
       "station": null,
       "status": "error",
       "snippets": [],
-      "last_checked": "2026-11-07T00:34:36.879361+00:00",
-      "error": "HTTPSConnectionPool(host='climbing-gym-soleil2.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='climbing-gym-soleil2.com', port=443) at 0x7f293934e1b0>, 'Connection to climbing-gym-soleil2.com timed out. (connect timeout=15)'))"
+      "last_checked": "2026-11-08T00:08:52.410952+00:00",
+      "error": "HTTPSConnectionPool(host='climbing-gym-soleil2.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='climbing-gym-soleil2.com', port=443) at 0x7f5b273b0ec0>, 'Connection to climbing-gym-soleil2.com timed out. (connect timeout=15)'))"
     }
   ]
 }
